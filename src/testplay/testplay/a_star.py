@@ -5,6 +5,7 @@ import math
 import time
 
 # A* (A-star)経路探索プログラム
+# git test
 class Astar():
     """A node class for A* Pathfinding"""
 
