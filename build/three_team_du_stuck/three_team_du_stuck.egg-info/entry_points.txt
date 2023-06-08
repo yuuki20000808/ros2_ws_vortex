@@ -1,0 +1,26 @@
+[console_scripts]
+du_communication_010 = three_team_du_stuck.du_communication_010_src:main
+du_communication_011 = three_team_du_stuck.du_communication_011_src:main
+du_communication_012 = three_team_du_stuck.du_communication_012_src:main
+du_communication_013 = three_team_du_stuck.du_communication_013_src:main
+du_communication_014 = three_team_du_stuck.du_communication_014_src:main
+du_communication_015 = three_team_du_stuck.du_communication_015_src:main
+du_communication_016 = three_team_du_stuck.du_communication_016_src:main
+du_communication_017 = three_team_du_stuck.du_communication_017_src:main
+du_communication_018 = three_team_du_stuck.du_communication_018_src:main
+du_communication_019 = three_team_du_stuck.du_communication_019_src:main
+du_communication_020 = three_team_du_stuck.du_communication_020_src:main
+du_communication_080 = three_team_du_stuck.du_communication_080_src:main
+du_controller_010 = three_team_du_stuck.du_controller_010_src:main
+du_controller_011 = three_team_du_stuck.du_controller_011_src:main
+du_controller_012 = three_team_du_stuck.du_controller_012_src:main
+du_controller_013 = three_team_du_stuck.du_controller_013_src:main
+du_controller_014 = three_team_du_stuck.du_controller_014_src:main
+du_controller_015 = three_team_du_stuck.du_controller_015_src:main
+du_controller_016 = three_team_du_stuck.du_controller_016_src:main
+du_controller_017 = three_team_du_stuck.du_controller_017_src:main
+du_controller_018 = three_team_du_stuck.du_controller_018_src:main
+du_controller_019 = three_team_du_stuck.du_controller_019_src:main
+du_controller_020 = three_team_du_stuck.du_controller_020_src:main
+du_controller_080 = three_team_du_stuck.du_controller_080_src:main
+

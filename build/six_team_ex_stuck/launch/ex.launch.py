@@ -1,0 +1,1 @@
+/home/swarm-team/ros2_ws/src/six_team_ex_stuck/launch/ex.launch.py

@@ -1,0 +1,10 @@
+[console_scripts]
+ex_communication_000 = one_team_ex_base_master.ex_communication_010_src:main
+ex_communication_001 = one_team_ex_base_master.ex_communication_011_src:main
+ex_communication_003 = one_team_ex_base_master.ex_communication_013_src:main
+ex_communication_test = one_team_ex_base_master.ex_communication_src:main
+ex_controller_000 = one_team_ex_base_master.ex_controller_010_src:main
+ex_controller_001 = one_team_ex_base_master.ex_controller_011_src:main
+ex_controller_003 = one_team_ex_base_master.ex_controller_013_src:main
+ex_controller_test = one_team_ex_base_master.ex_controller_src:main
+

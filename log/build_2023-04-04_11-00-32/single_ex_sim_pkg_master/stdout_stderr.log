@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/package_index.py:306: UserWarning: Unbuilt egg for one-team-ex-stuck 0.0.0 (/home/swarm-team/ros2_ws/build/one_team_ex_stuck)
+  Environment.__init__(self, *args, **kw)
+running egg_info
+writing single_ex_sim_pkg_master.egg-info/PKG-INFO
+writing dependency_links to single_ex_sim_pkg_master.egg-info/dependency_links.txt
+writing entry points to single_ex_sim_pkg_master.egg-info/entry_points.txt
+writing requirements to single_ex_sim_pkg_master.egg-info/requires.txt
+writing top-level names to single_ex_sim_pkg_master.egg-info/top_level.txt
+reading manifest file 'single_ex_sim_pkg_master.egg-info/SOURCES.txt'
+writing manifest file 'single_ex_sim_pkg_master.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages/single-ex-sim-pkg-master.egg-link (link to .)
+Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+
+Installed /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master
+running install_data

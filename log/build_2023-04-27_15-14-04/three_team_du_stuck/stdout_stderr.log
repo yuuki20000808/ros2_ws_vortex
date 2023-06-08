@@ -1,0 +1,38 @@
+running develop
+running egg_info
+writing three_team_du_stuck.egg-info/PKG-INFO
+writing dependency_links to three_team_du_stuck.egg-info/dependency_links.txt
+writing entry points to three_team_du_stuck.egg-info/entry_points.txt
+writing requirements to three_team_du_stuck.egg-info/requires.txt
+writing top-level names to three_team_du_stuck.egg-info/top_level.txt
+reading manifest file 'three_team_du_stuck.egg-info/SOURCES.txt'
+writing manifest file 'three_team_du_stuck.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/python3.8/site-packages/three-team-du-stuck.egg-link (link to .)
+Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_019 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_020 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_019 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_020 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/three_team_du_stuck
+
+Installed /home/swarm-team/ros2_ws/build/three_team_du_stuck
+running install_data

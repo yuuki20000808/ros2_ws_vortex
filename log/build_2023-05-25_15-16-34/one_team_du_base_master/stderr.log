@@ -1,0 +1,2 @@
+/usr/lib/python3/dist-packages/setuptools/package_index.py:306: UserWarning: Unbuilt egg for multi-du-udpcomm-01-pkg 0.0.0 (/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg)
+  Environment.__init__(self, *args, **kw)

@@ -1,0 +1,36 @@
+[0.849s] Invoking command in '/home/swarm-team/ros2_ws/build/two_team_du_test': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_test/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_du_test/build --no-deps install_data
+[0.983s] running develop
+[1.045s] running egg_info
+[1.045s] writing two_team_du_test.egg-info/PKG-INFO
+[1.045s] writing dependency_links to two_team_du_test.egg-info/dependency_links.txt
+[1.045s] writing entry points to two_team_du_test.egg-info/entry_points.txt
+[1.046s] writing requirements to two_team_du_test.egg-info/requires.txt
+[1.046s] writing top-level names to two_team_du_test.egg-info/top_level.txt
+[1.061s] reading manifest file 'two_team_du_test.egg-info/SOURCES.txt'
+[1.062s] writing manifest file 'two_team_du_test.egg-info/SOURCES.txt'
+[1.078s] running build_ext
+[1.078s] Creating /home/swarm-team/ros2_ws/install/two_team_du_test/lib/python3.8/site-packages/two-team-du-test.egg-link (link to .)
+[1.079s] Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/two_team_du_test/lib/two_team_du_test
+[1.079s] 
+[1.079s] Installed /home/swarm-team/ros2_ws/build/two_team_du_test
+[1.079s] running install_data
+[1.092s] Invoked command in '/home/swarm-team/ros2_ws/build/two_team_du_test' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_test/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_du_test/build --no-deps install_data

@@ -1,0 +1,156 @@
+[2.632s] Invoking command in '/home/swarm-team/ros2_ws/build/four_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/four_team_du_stuck/build
+[2.830s] running develop
+[2.910s] Removing /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four-team-du-stuck.egg-link (link to .)
+[2.923s] Invoked command in '/home/swarm-team/ros2_ws/build/four_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/four_team_du_stuck/build
+[2.925s] Invoking command in '/home/swarm-team/ros2_ws/src/four_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/four_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/four_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/four_team_du_stuck/install.log --install-scripts $base/lib/four_team_du_stuck --single-version-externally-managed
+[3.140s] running egg_info
+[3.140s] writing ../../build/four_team_du_stuck/four_team_du_stuck.egg-info/PKG-INFO
+[3.140s] writing dependency_links to ../../build/four_team_du_stuck/four_team_du_stuck.egg-info/dependency_links.txt
+[3.140s] writing entry points to ../../build/four_team_du_stuck/four_team_du_stuck.egg-info/entry_points.txt
+[3.140s] writing requirements to ../../build/four_team_du_stuck/four_team_du_stuck.egg-info/requires.txt
+[3.140s] writing top-level names to ../../build/four_team_du_stuck/four_team_du_stuck.egg-info/top_level.txt
+[3.161s] reading manifest file '../../build/four_team_du_stuck/four_team_du_stuck.egg-info/SOURCES.txt'
+[3.163s] writing manifest file '../../build/four_team_du_stuck/four_team_du_stuck.egg-info/SOURCES.txt'
+[3.163s] running build
+[3.163s] running build_py
+[3.163s] creating /home/swarm-team/ros2_ws/build/four_team_du_stuck/build
+[3.163s] creating /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib
+[3.163s] creating /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.163s] copying four_team_du_stuck/du_controller_019_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.163s] copying four_team_du_stuck/du_communication_012_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.163s] copying four_team_du_stuck/du_controller_014_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.163s] copying four_team_du_stuck/du_communication_021_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_communication_019_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_controller_020_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/pure_pursuit.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_communication_018_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_communication_010_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_controller_017_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_controller_015_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_communication_022_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/a_star.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_communication_023_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_controller_022_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_controller_080_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_controller_021_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_controller_011_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.164s] copying four_team_du_stuck/du_controller_023_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_communication_014_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_controller_016_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_communication_020_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_communication_017_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_controller_013_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/__init__.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_controller_018_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_communication_011_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_communication_015_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_communication_013_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_communication_016_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_controller_012_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_communication_080_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] copying four_team_du_stuck/du_controller_010_src.py -> /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck
+[3.165s] running install
+[3.165s] running install_lib
+[3.166s] creating /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.166s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_019_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.167s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_012_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.167s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_014_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.167s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_021_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.167s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_019_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.167s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_020_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.167s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/pure_pursuit.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.167s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_018_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_010_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_017_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_015_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_022_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/a_star.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_023_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_022_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_080_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_021_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_011_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_023_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.168s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_014_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_016_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_020_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_017_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_013_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/__init__.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_018_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_011_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_015_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_013_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_016_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_012_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_communication_080_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] copying /home/swarm-team/ros2_ws/build/four_team_du_stuck/build/lib/four_team_du_stuck/du_controller_010_src.py -> /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck
+[3.169s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_019_src.py to du_controller_019_src.cpython-38.pyc
+[3.171s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_012_src.py to du_communication_012_src.cpython-38.pyc
+[3.171s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_014_src.py to du_controller_014_src.cpython-38.pyc
+[3.173s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_021_src.py to du_communication_021_src.cpython-38.pyc
+[3.173s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_019_src.py to du_communication_019_src.cpython-38.pyc
+[3.174s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_020_src.py to du_controller_020_src.cpython-38.pyc
+[3.175s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/pure_pursuit.py to pure_pursuit.cpython-38.pyc
+[3.175s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_018_src.py to du_communication_018_src.cpython-38.pyc
+[3.176s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_010_src.py to du_communication_010_src.cpython-38.pyc
+[3.176s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_017_src.py to du_controller_017_src.cpython-38.pyc
+[3.177s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_015_src.py to du_controller_015_src.cpython-38.pyc
+[3.178s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_022_src.py to du_communication_022_src.cpython-38.pyc
+[3.179s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/a_star.py to a_star.cpython-38.pyc
+[3.179s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_023_src.py to du_communication_023_src.cpython-38.pyc
+[3.180s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_022_src.py to du_controller_022_src.cpython-38.pyc
+[3.181s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_080_src.py to du_controller_080_src.cpython-38.pyc
+[3.181s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_021_src.py to du_controller_021_src.cpython-38.pyc
+[3.182s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_011_src.py to du_controller_011_src.cpython-38.pyc
+[3.183s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_023_src.py to du_controller_023_src.cpython-38.pyc
+[3.184s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_014_src.py to du_communication_014_src.cpython-38.pyc
+[3.187s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_016_src.py to du_controller_016_src.cpython-38.pyc
+[3.189s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_020_src.py to du_communication_020_src.cpython-38.pyc
+[3.189s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_017_src.py to du_communication_017_src.cpython-38.pyc
+[3.189s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_013_src.py to du_controller_013_src.cpython-38.pyc
+[3.189s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/__init__.py to __init__.cpython-38.pyc
+[3.189s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_018_src.py to du_controller_018_src.cpython-38.pyc
+[3.190s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_011_src.py to du_communication_011_src.cpython-38.pyc
+[3.190s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_015_src.py to du_communication_015_src.cpython-38.pyc
+[3.190s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_013_src.py to du_communication_013_src.cpython-38.pyc
+[3.190s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_016_src.py to du_communication_016_src.cpython-38.pyc
+[3.191s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_012_src.py to du_controller_012_src.cpython-38.pyc
+[3.193s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_communication_080_src.py to du_communication_080_src.cpython-38.pyc
+[3.193s] byte-compiling /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck/du_controller_010_src.py to du_controller_010_src.cpython-38.pyc
+[3.194s] running install_data
+[3.194s] running install_egg_info
+[3.195s] Copying ../../build/four_team_du_stuck/four_team_du_stuck.egg-info to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages/four_team_du_stuck-0.0.0-py3.8.egg-info
+[3.196s] running install_scripts
+[3.216s] Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.216s] Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.216s] Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.216s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.216s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.216s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.216s] Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.216s] Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.216s] Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_communication_019 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_communication_020 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_communication_021 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_communication_022 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_communication_023 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_019 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.217s] Installing du_controller_020 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.218s] Installing du_controller_021 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.218s] Installing du_controller_022 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.218s] Installing du_controller_023 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.218s] Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/four_team_du_stuck
+[3.218s] writing list of installed files to '/home/swarm-team/ros2_ws/build/four_team_du_stuck/install.log'
+[3.248s] Invoked command in '/home/swarm-team/ros2_ws/src/four_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/four_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/four_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/four_team_du_stuck/install.log --install-scripts $base/lib/four_team_du_stuck --single-version-externally-managed

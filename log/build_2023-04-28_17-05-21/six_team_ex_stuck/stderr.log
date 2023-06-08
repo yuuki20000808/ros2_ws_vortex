@@ -1,0 +1,2 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:368: UserWarning: Unbuilt egg for two-team-ex-stuck 0.0.0 (/home/swarm-team/ros2_ws/build/two_team_ex_stuck)
+  self.local_index = Environment(self.shadow_path + sys.path)

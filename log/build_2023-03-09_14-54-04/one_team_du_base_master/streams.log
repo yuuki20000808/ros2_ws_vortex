@@ -1,0 +1,43 @@
+[2.686s] Invoking command in '/home/swarm-team/ros2_ws/build/one_team_du_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_du_base_master/build
+[2.945s] running develop
+[3.084s] Invoked command in '/home/swarm-team/ros2_ws/build/one_team_du_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_du_base_master/build
+[3.085s] Invoking command in '/home/swarm-team/ros2_ws/src/one_team_du_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_du_base_master build --build-base /home/swarm-team/ros2_ws/build/one_team_du_base_master/build install --record /home/swarm-team/ros2_ws/build/one_team_du_base_master/install.log --install-scripts $base/lib/one_team_du_base_master --single-version-externally-managed
+[3.320s] running egg_info
+[3.322s] writing ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/PKG-INFO
+[3.322s] writing dependency_links to ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/dependency_links.txt
+[3.322s] writing entry points to ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/entry_points.txt
+[3.322s] writing requirements to ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/requires.txt
+[3.322s] writing top-level names to ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/top_level.txt
+[3.336s] reading manifest file '../../build/one_team_du_base_master/one_team_du_base_master.egg-info/SOURCES.txt'
+[3.337s] writing manifest file '../../build/one_team_du_base_master/one_team_du_base_master.egg-info/SOURCES.txt'
+[3.337s] running build
+[3.337s] running build_py
+[3.340s] running install
+[3.341s] running install_lib
+[3.341s] running install_data
+[3.341s] running install_egg_info
+[3.341s] removing '/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master-0.0.0-py3.8.egg-info' (and everything under it)
+[3.341s] Copying ../../build/one_team_du_base_master/one_team_du_base_master.egg-info to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master-0.0.0-py3.8.egg-info
+[3.342s] running install_scripts
+[3.352s] Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.352s] Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.353s] writing list of installed files to '/home/swarm-team/ros2_ws/build/one_team_du_base_master/install.log'
+[3.379s] Invoked command in '/home/swarm-team/ros2_ws/src/one_team_du_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_du_base_master build --build-base /home/swarm-team/ros2_ws/build/one_team_du_base_master/build install --record /home/swarm-team/ros2_ws/build/one_team_du_base_master/install.log --install-scripts $base/lib/one_team_du_base_master --single-version-externally-managed

@@ -1,0 +1,14 @@
+msg/DumpCNP.idl
+msg/DumpCNP.msg
+msg/DumpInfoForServer.idl
+msg/DumpInfoForServer.msg
+msg/ExPosAndTeamNumber.idl
+msg/ExPosAndTeamNumber.msg
+srv/AddThreeInts.idl
+srv/AddThreeInts.srv
+srv/AddThreeInts_Request.msg
+srv/AddThreeInts_Response.msg
+srv/Dumpbool.idl
+srv/Dumpbool.srv
+srv/Dumpbool_Request.msg
+srv/Dumpbool_Response.msg

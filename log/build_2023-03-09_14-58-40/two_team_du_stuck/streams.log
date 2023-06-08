@@ -1,0 +1,43 @@
+[2.639s] Invoking command in '/home/swarm-team/ros2_ws/build/two_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_du_stuck/build
+[2.893s] running develop
+[3.035s] Invoked command in '/home/swarm-team/ros2_ws/build/two_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_du_stuck/build
+[3.038s] Invoking command in '/home/swarm-team/ros2_ws/src/two_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/two_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/two_team_du_stuck/install.log --install-scripts $base/lib/two_team_du_stuck --single-version-externally-managed
+[3.191s] running egg_info
+[3.192s] writing ../../build/two_team_du_stuck/two_team_du_stuck.egg-info/PKG-INFO
+[3.192s] writing dependency_links to ../../build/two_team_du_stuck/two_team_du_stuck.egg-info/dependency_links.txt
+[3.192s] writing entry points to ../../build/two_team_du_stuck/two_team_du_stuck.egg-info/entry_points.txt
+[3.192s] writing requirements to ../../build/two_team_du_stuck/two_team_du_stuck.egg-info/requires.txt
+[3.192s] writing top-level names to ../../build/two_team_du_stuck/two_team_du_stuck.egg-info/top_level.txt
+[3.212s] reading manifest file '../../build/two_team_du_stuck/two_team_du_stuck.egg-info/SOURCES.txt'
+[3.212s] writing manifest file '../../build/two_team_du_stuck/two_team_du_stuck.egg-info/SOURCES.txt'
+[3.213s] running build
+[3.213s] running build_py
+[3.213s] running install
+[3.218s] running install_lib
+[3.219s] running install_data
+[3.219s] running install_egg_info
+[3.219s] removing '/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages/two_team_du_stuck-0.0.0-py3.8.egg-info' (and everything under it)
+[3.219s] Copying ../../build/two_team_du_stuck/two_team_du_stuck.egg-info to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages/two_team_du_stuck-0.0.0-py3.8.egg-info
+[3.220s] running install_scripts
+[3.228s] Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.229s] Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.230s] Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/two_team_du_stuck
+[3.230s] writing list of installed files to '/home/swarm-team/ros2_ws/build/two_team_du_stuck/install.log'
+[3.253s] Invoked command in '/home/swarm-team/ros2_ws/src/two_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/two_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/two_team_du_stuck/install.log --install-scripts $base/lib/two_team_du_stuck --single-version-externally-managed

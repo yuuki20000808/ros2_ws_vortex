@@ -1,0 +1,961 @@
+[0.150s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.150s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f59f8cf93d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f59f8cf93d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f59f8cf9910>)
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/swarm-team/ros2_ws'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_du_stuck) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/four_team_du_stuck' with type 'ros.ament_python' and name 'four_team_du_stuck'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_team_ex_stuck) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/four_team_ex_stuck' with type 'ros.ament_python' and name 'four_team_ex_stuck'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_01_pkg-master) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_du_udpcomm_01_pkg-master' with type 'ros.ament_python' and name 'multi_du_udpcomm_01_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_du_udpcomm_02_pkg) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_du_udpcomm_02_pkg' with type 'ros.ament_python' and name 'multi_du_udpcomm_02_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_base_master) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/one_team_du_base_master' with type 'ros.ament_python' and name 'one_team_du_base_master'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_du_stuck) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/one_team_du_stuck' with type 'ros.ament_python' and name 'one_team_du_stuck'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_base_master) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/one_team_ex_base_master' with type 'ros.ament_python' and name 'one_team_ex_base_master'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/one_team_ex_stuck) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/one_team_ex_stuck' with type 'ros.ament_python' and name 'one_team_ex_stuck'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/single_ex_sim_pkg' with type 'ros.ament_python' and name 'single_ex_sim_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/single_ex_sim_pkg_master) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/single_ex_sim_pkg_master' with type 'ros.ament_python' and name 'single_ex_sim_pkg_master'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_du_stuck) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/six_team_du_stuck' with type 'ros.ament_python' and name 'six_team_du_stuck'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_team_ex_stuck) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/six_team_ex_stuck' with type 'ros.ament_python' and name 'six_team_ex_stuck'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/testplay) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testplay' with type 'ros.ament_python' and name 'testplay'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_du_stuck) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/three_team_du_stuck' with type 'ros.ament_python' and name 'three_team_du_stuck'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_team_ex_stuck) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/three_team_ex_stuck' with type 'ros.ament_python' and name 'three_team_ex_stuck'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_du_stuck) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_team_du_stuck' with type 'ros.ament_python' and name 'two_team_du_stuck'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_team_ex_stuck) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_team_ex_stuck' with type 'ros.ament_python' and name 'two_team_ex_stuck'
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.195s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/swarm-team/ros2_ws/install
+[0.196s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'four_team_du_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'four_team_du_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/four_team_du_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/four_team_du_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/four_team_du_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'four_team_ex_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'four_team_ex_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/four_team_ex_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/four_team_ex_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/four_team_ex_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_01_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'multi_du_udpcomm_01_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_01_pkg-master', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'multi_du_udpcomm_02_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'multi_du_udpcomm_02_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_02_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_base_master' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'one_team_du_base_master' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/one_team_du_base_master', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/one_team_du_base_master', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/one_team_du_base_master', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'one_team_du_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'one_team_du_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/one_team_du_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/one_team_du_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/one_team_du_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_base_master' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'one_team_ex_base_master' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/one_team_ex_base_master', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/one_team_ex_base_master', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/one_team_ex_base_master', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'one_team_ex_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'one_team_ex_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/one_team_ex_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/one_team_ex_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/one_team_ex_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'single_ex_sim_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'single_ex_sim_pkg_master' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'single_ex_sim_pkg_master' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg_master', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_du_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'six_team_du_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/six_team_du_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/six_team_du_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/six_team_du_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'six_team_ex_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'six_team_ex_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/six_team_ex_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/six_team_ex_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/six_team_ex_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'testplay' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'testplay' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/testplay', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/testplay', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/testplay', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'three_team_du_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'three_team_du_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/three_team_du_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/three_team_du_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/three_team_du_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'three_team_ex_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'three_team_ex_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/three_team_ex_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/three_team_ex_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/three_team_ex_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_du_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'two_team_du_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/two_team_du_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/two_team_du_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/two_team_du_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'two_team_ex_stuck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'two_team_ex_stuck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swarm-team/ros2_ws/build/two_team_ex_stuck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swarm-team/ros2_ws/install/two_team_ex_stuck', 'merge_install': False, 'path': '/home/swarm-team/ros2_ws/src/two_team_ex_stuck', 'symlink_install': False, 'test_result_base': None}
+[0.235s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.237s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/four_team_du_stuck' with build type 'ament_python'
+[0.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_team_du_stuck', 'ament_prefix_path')
+[0.240s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/hook/ament_prefix_path.ps1'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/hook/ament_prefix_path.dsv'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/hook/ament_prefix_path.sh'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/four_team_ex_stuck' with build type 'ament_python'
+[0.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_team_ex_stuck', 'ament_prefix_path')
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/hook/ament_prefix_path.ps1'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/hook/ament_prefix_path.dsv'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/hook/ament_prefix_path.sh'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.250s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_01_pkg-master' with build type 'ament_python'
+[0.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_du_udpcomm_01_pkg', 'ament_prefix_path')
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/hook/ament_prefix_path.ps1'
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/hook/ament_prefix_path.dsv'
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/hook/ament_prefix_path.sh'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_02_pkg' with build type 'ament_python'
+[0.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_du_udpcomm_02_pkg', 'ament_prefix_path')
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/hook/ament_prefix_path.dsv'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/hook/ament_prefix_path.sh'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/one_team_du_base_master' with build type 'ament_python'
+[0.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('one_team_du_base_master', 'ament_prefix_path')
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/hook/ament_prefix_path.ps1'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/hook/ament_prefix_path.dsv'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/hook/ament_prefix_path.sh'
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/one_team_du_stuck' with build type 'ament_python'
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('one_team_du_stuck', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/hook/ament_prefix_path.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/one_team_ex_base_master' with build type 'ament_python'
+[0.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('one_team_ex_base_master', 'ament_prefix_path')
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/hook/ament_prefix_path.ps1'
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/hook/ament_prefix_path.dsv'
+[0.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/hook/ament_prefix_path.sh'
+[0.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.273s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/one_team_ex_stuck' with build type 'ament_python'
+[0.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('one_team_ex_stuck', 'ament_prefix_path')
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/hook/ament_prefix_path.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/hook/ament_prefix_path.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg' with build type 'ament_python'
+[0.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_ex_sim_pkg', 'ament_prefix_path')
+[0.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/hook/ament_prefix_path.ps1'
+[0.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/hook/ament_prefix_path.dsv'
+[0.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/hook/ament_prefix_path.sh'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.286s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg_master' with build type 'ament_python'
+[0.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_ex_sim_pkg_master', 'ament_prefix_path')
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/hook/ament_prefix_path.ps1'
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/hook/ament_prefix_path.dsv'
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/hook/ament_prefix_path.sh'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/six_team_du_stuck' with build type 'ament_python'
+[0.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_team_du_stuck', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/hook/ament_prefix_path.ps1'
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/hook/ament_prefix_path.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/hook/ament_prefix_path.sh'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/six_team_ex_stuck' with build type 'ament_python'
+[0.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_team_ex_stuck', 'ament_prefix_path')
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/hook/ament_prefix_path.ps1'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/hook/ament_prefix_path.dsv'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/hook/ament_prefix_path.sh'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/testplay' with build type 'ament_python'
+[0.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('testplay', 'ament_prefix_path')
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/testplay/share/testplay/hook/ament_prefix_path.ps1'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/testplay/share/testplay/hook/ament_prefix_path.dsv'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/testplay/share/testplay/hook/ament_prefix_path.sh'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/three_team_du_stuck' with build type 'ament_python'
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('three_team_du_stuck', 'ament_prefix_path')
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/hook/ament_prefix_path.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/hook/ament_prefix_path.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/three_team_ex_stuck' with build type 'ament_python'
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('three_team_ex_stuck', 'ament_prefix_path')
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/hook/ament_prefix_path.ps1'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/hook/ament_prefix_path.dsv'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/hook/ament_prefix_path.sh'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.329s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/two_team_du_stuck' with build type 'ament_python'
+[0.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_team_du_stuck', 'ament_prefix_path')
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/hook/ament_prefix_path.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/hook/ament_prefix_path.dsv'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/hook/ament_prefix_path.sh'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swarm-team/ros2_ws/src/two_team_ex_stuck' with build type 'ament_python'
+[0.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_team_ex_stuck', 'ament_prefix_path')
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/hook/ament_prefix_path.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/hook/ament_prefix_path.dsv'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/hook/ament_prefix_path.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/four_team_du_stuck'
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.587s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/four_team_ex_stuck'
+[0.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.708s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_01_pkg-master'
+[0.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.827s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_02_pkg'
+[0.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.949s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/one_team_du_base_master'
+[0.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.072s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/one_team_du_stuck'
+[1.073s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.192s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/one_team_ex_base_master'
+[1.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.313s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/one_team_ex_stuck'
+[1.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.433s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg'
+[1.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.557s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg_master'
+[1.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.680s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/six_team_du_stuck'
+[1.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.803s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/six_team_ex_stuck'
+[1.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.925s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/testplay'
+[1.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.049s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/three_team_du_stuck'
+[2.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.172s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/three_team_ex_stuck'
+[2.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.294s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/two_team_du_stuck'
+[2.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.416s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swarm-team/ros2_ws/src/two_team_ex_stuck'
+[2.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/one_team_ex_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build
+[2.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/three_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/three_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/three_team_du_stuck/build
+[2.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/six_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/six_team_ex_stuck/build
+[2.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/one_team_du_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_du_base_master/build
+[2.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/four_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/four_team_du_stuck/build
+[2.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build
+[2.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/two_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_du_stuck/build
+[2.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/build
+[2.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/four_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/four_team_ex_stuck/build
+[2.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/one_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_du_stuck/build
+[2.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/testplay': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/testplay/build
+[2.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/two_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_ex_stuck/build
+[2.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/three_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/three_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/three_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/three_team_ex_stuck/build
+[2.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/build
+[2.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/build
+[2.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/one_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_ex_stuck/build
+[2.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/build/six_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/six_team_du_stuck/build
+[3.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/six_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/six_team_ex_stuck/build
+[3.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/six_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/six_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/six_team_ex_stuck/install.log --install-scripts $base/lib/six_team_ex_stuck --single-version-externally-managed
+[3.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/one_team_ex_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build
+[3.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/one_team_ex_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_ex_base_master build --build-base /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build install --record /home/swarm-team/ros2_ws/build/one_team_ex_base_master/install.log --install-scripts $base/lib/one_team_ex_base_master --single-version-externally-managed
+[3.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/three_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/three_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/three_team_du_stuck/build
+[3.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/three_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/three_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/three_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/three_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/three_team_du_stuck/install.log --install-scripts $base/lib/three_team_du_stuck --single-version-externally-managed
+[3.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/four_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/four_team_du_stuck/build
+[3.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/four_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/four_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/four_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/four_team_du_stuck/install.log --install-scripts $base/lib/four_team_du_stuck --single-version-externally-managed
+[3.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/build
+[3.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/single_ex_sim_pkg_master build --build-base /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/build install --record /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/install.log --install-scripts $base/lib/single_ex_sim_pkg_master --single-version-externally-managed
+[3.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/one_team_du_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_du_base_master/build
+[3.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/one_team_du_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_du_base_master build --build-base /home/swarm-team/ros2_ws/build/one_team_du_base_master/build install --record /home/swarm-team/ros2_ws/build/one_team_du_base_master/install.log --install-scripts $base/lib/one_team_du_base_master --single-version-externally-managed
+[3.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/build
+[3.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_02_pkg': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_du_udpcomm_02_pkg build --build-base /home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/build install --record /home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/install.log --install-scripts $base/lib/multi_du_udpcomm_02_pkg --single-version-externally-managed
+[3.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/two_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_ex_stuck/build
+[3.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/two_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/two_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/two_team_ex_stuck/install.log --install-scripts $base/lib/two_team_ex_stuck --single-version-externally-managed
+[3.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/four_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/four_team_ex_stuck/build
+[3.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/four_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/four_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/four_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/four_team_ex_stuck/install.log --install-scripts $base/lib/four_team_ex_stuck --single-version-externally-managed
+[3.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/one_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_du_stuck/build
+[3.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/one_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/one_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/one_team_du_stuck/install.log --install-scripts $base/lib/one_team_du_stuck --single-version-externally-managed
+[3.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/six_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/six_team_du_stuck/build
+[3.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/six_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/six_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/six_team_du_stuck/install.log --install-scripts $base/lib/six_team_du_stuck --single-version-externally-managed
+[3.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/build
+[3.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/single_ex_sim_pkg build --build-base /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/build install --record /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/install.log --install-scripts $base/lib/single_ex_sim_pkg --single-version-externally-managed
+[3.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/testplay' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/testplay/build
+[3.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/testplay': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testplay build --build-base /home/swarm-team/ros2_ws/build/testplay/build install --record /home/swarm-team/ros2_ws/build/testplay/install.log --install-scripts $base/lib/testplay --single-version-externally-managed
+[3.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/two_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_du_stuck/build
+[3.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/two_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/two_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/two_team_du_stuck/install.log --install-scripts $base/lib/two_team_du_stuck --single-version-externally-managed
+[3.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build
+[3.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_01_pkg-master': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_du_udpcomm_01_pkg build --build-base /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build install --record /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/install.log --install-scripts $base/lib/multi_du_udpcomm_01_pkg --single-version-externally-managed
+[3.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/six_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/six_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/six_team_ex_stuck/install.log --install-scripts $base/lib/six_team_ex_stuck --single-version-externally-managed
+[3.363s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_ex_stuck' for CMake module files
+[3.364s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_ex_stuck' for CMake config files
+[3.365s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib'
+[3.365s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/bin'
+[3.365s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/pkgconfig/six_team_ex_stuck.pc'
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages'
+[3.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_team_ex_stuck', 'pythonpath')
+[3.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/hook/pythonpath.ps1'
+[3.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/hook/pythonpath.dsv'
+[3.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/hook/pythonpath.sh'
+[3.368s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/bin'
+[3.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(six_team_ex_stuck)
+[3.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/package.ps1'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/package.dsv'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/package.sh'
+[3.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/package.bash'
+[3.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/six_team_ex_stuck/package.zsh'
+[3.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/six_team_ex_stuck/share/colcon-core/packages/six_team_ex_stuck)
+[3.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/three_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/three_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/three_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/three_team_ex_stuck/build
+[3.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/three_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/three_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/three_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/three_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/three_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/three_team_ex_stuck/install.log --install-scripts $base/lib/three_team_ex_stuck --single-version-externally-managed
+[3.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/build/one_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_ex_stuck/build
+[3.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swarm-team/ros2_ws/src/one_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/one_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/one_team_ex_stuck/install.log --install-scripts $base/lib/one_team_ex_stuck --single-version-externally-managed
+[3.453s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_base_master' for CMake module files
+[3.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/one_team_ex_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_ex_base_master build --build-base /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build install --record /home/swarm-team/ros2_ws/build/one_team_ex_base_master/install.log --install-scripts $base/lib/one_team_ex_base_master --single-version-externally-managed
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_base_master' for CMake config files
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/bin'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/pkgconfig/one_team_ex_base_master.pc'
+[3.458s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages'
+[3.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('one_team_ex_base_master', 'pythonpath')
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/hook/pythonpath.ps1'
+[3.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/hook/pythonpath.dsv'
+[3.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/hook/pythonpath.sh'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/bin'
+[3.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(one_team_ex_base_master)
+[3.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/package.ps1'
+[3.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/package.dsv'
+[3.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/package.sh'
+[3.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/package.bash'
+[3.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/one_team_ex_base_master/package.zsh'
+[3.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/one_team_ex_base_master/share/colcon-core/packages/one_team_ex_base_master)
+[3.475s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_du_stuck' for CMake module files
+[3.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/three_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/three_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/three_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/three_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/three_team_du_stuck/install.log --install-scripts $base/lib/three_team_du_stuck --single-version-externally-managed
+[3.476s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_du_stuck' for CMake config files
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_du_stuck/lib'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_du_stuck/bin'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/pkgconfig/three_team_du_stuck.pc'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/python3.8/site-packages'
+[3.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('three_team_du_stuck', 'pythonpath')
+[3.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/hook/pythonpath.ps1'
+[3.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/hook/pythonpath.dsv'
+[3.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/hook/pythonpath.sh'
+[3.479s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_du_stuck/bin'
+[3.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(three_team_du_stuck)
+[3.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/package.ps1'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/package.dsv'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/package.sh'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/package.bash'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/three_team_du_stuck/package.zsh'
+[3.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/three_team_du_stuck/share/colcon-core/packages/three_team_du_stuck)
+[3.486s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_du_stuck' for CMake module files
+[3.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/four_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/four_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/four_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/four_team_du_stuck/install.log --install-scripts $base/lib/four_team_du_stuck --single-version-externally-managed
+[3.487s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_du_stuck' for CMake config files
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib'
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_du_stuck/bin'
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/pkgconfig/four_team_du_stuck.pc'
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages'
+[3.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_team_du_stuck', 'pythonpath')
+[3.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/hook/pythonpath.ps1'
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/hook/pythonpath.dsv'
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/hook/pythonpath.sh'
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_du_stuck/bin'
+[3.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_team_du_stuck)
+[3.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/package.ps1'
+[3.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/package.dsv'
+[3.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/package.sh'
+[3.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/package.bash'
+[3.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/four_team_du_stuck/package.zsh'
+[3.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/four_team_du_stuck/share/colcon-core/packages/four_team_du_stuck)
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_base_master' for CMake module files
+[3.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/one_team_du_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_du_base_master build --build-base /home/swarm-team/ros2_ws/build/one_team_du_base_master/build install --record /home/swarm-team/ros2_ws/build/one_team_du_base_master/install.log --install-scripts $base/lib/one_team_du_base_master --single-version-externally-managed
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_base_master' for CMake config files
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_base_master/bin'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/pkgconfig/one_team_du_base_master.pc'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages'
+[3.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('one_team_du_base_master', 'pythonpath')
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/hook/pythonpath.ps1'
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/hook/pythonpath.dsv'
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/hook/pythonpath.sh'
+[3.501s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_base_master/bin'
+[3.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(one_team_du_base_master)
+[3.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/package.ps1'
+[3.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/package.dsv'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/package.sh'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/package.bash'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/one_team_du_base_master/package.zsh'
+[3.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/one_team_du_base_master/share/colcon-core/packages/one_team_du_base_master)
+[3.522s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_ex_stuck' for CMake module files
+[3.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/four_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/four_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/four_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/four_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/four_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/four_team_ex_stuck/install.log --install-scripts $base/lib/four_team_ex_stuck --single-version-externally-managed
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_ex_stuck' for CMake config files
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/lib'
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/bin'
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/lib/pkgconfig/four_team_ex_stuck.pc'
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/lib/python3.8/site-packages'
+[3.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_team_ex_stuck', 'pythonpath')
+[3.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/hook/pythonpath.ps1'
+[3.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/hook/pythonpath.dsv'
+[3.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/hook/pythonpath.sh'
+[3.539s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/bin'
+[3.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_team_ex_stuck)
+[3.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/package.ps1'
+[3.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/package.dsv'
+[3.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/package.sh'
+[3.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/package.bash'
+[3.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/four_team_ex_stuck/package.zsh'
+[3.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/four_team_ex_stuck/share/colcon-core/packages/four_team_ex_stuck)
+[3.559s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg' for CMake module files
+[3.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_02_pkg' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_du_udpcomm_02_pkg build --build-base /home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/build install --record /home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg/install.log --install-scripts $base/lib/multi_du_udpcomm_02_pkg --single-version-externally-managed
+[3.560s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg' for CMake config files
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/lib'
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/bin'
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/lib/pkgconfig/multi_du_udpcomm_02_pkg.pc'
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/lib/python3.8/site-packages'
+[3.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_du_udpcomm_02_pkg', 'pythonpath')
+[3.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/hook/pythonpath.ps1'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/hook/pythonpath.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/hook/pythonpath.sh'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/bin'
+[3.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_du_udpcomm_02_pkg)
+[3.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/package.ps1'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/package.dsv'
+[3.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/package.sh'
+[3.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/package.bash'
+[3.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/multi_du_udpcomm_02_pkg/package.zsh'
+[3.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/share/colcon-core/packages/multi_du_udpcomm_02_pkg)
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg' for CMake module files
+[3.575s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg' for CMake config files
+[3.577s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib'
+[3.577s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/bin'
+[3.577s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/pkgconfig/multi_du_udpcomm_01_pkg.pc'
+[3.578s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages'
+[3.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_du_udpcomm_01_pkg', 'pythonpath')
+[3.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/hook/pythonpath.ps1'
+[3.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/hook/pythonpath.dsv'
+[3.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/hook/pythonpath.sh'
+[3.581s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/bin'
+[3.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_du_udpcomm_01_pkg)
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/package.ps1'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/package.dsv'
+[3.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/package.sh'
+[3.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/package.bash'
+[3.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg/package.zsh'
+[3.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/colcon-core/packages/multi_du_udpcomm_01_pkg)
+[3.588s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_stuck' for CMake module files
+[3.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/multi_du_udpcomm_01_pkg-master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_du_udpcomm_01_pkg build --build-base /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build install --record /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/install.log --install-scripts $base/lib/multi_du_udpcomm_01_pkg --single-version-externally-managed
+[3.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/one_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/one_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/one_team_du_stuck/install.log --install-scripts $base/lib/one_team_du_stuck --single-version-externally-managed
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_stuck' for CMake config files
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_stuck/lib'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_stuck/bin'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_stuck/lib/pkgconfig/one_team_du_stuck.pc'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_stuck/lib/python3.8/site-packages'
+[3.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('one_team_du_stuck', 'pythonpath')
+[3.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/hook/pythonpath.ps1'
+[3.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/hook/pythonpath.dsv'
+[3.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/hook/pythonpath.sh'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_du_stuck/bin'
+[3.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(one_team_du_stuck)
+[3.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/package.ps1'
+[3.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/package.dsv'
+[3.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/package.sh'
+[3.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/package.bash'
+[3.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/one_team_du_stuck/package.zsh'
+[3.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/one_team_du_stuck/share/colcon-core/packages/one_team_du_stuck)
+[3.606s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_ex_stuck' for CMake module files
+[3.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/two_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/two_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/two_team_ex_stuck/install.log --install-scripts $base/lib/two_team_ex_stuck --single-version-externally-managed
+[3.607s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_ex_stuck' for CMake config files
+[3.608s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/lib'
+[3.608s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/bin'
+[3.608s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/lib/pkgconfig/two_team_ex_stuck.pc'
+[3.608s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/lib/python3.8/site-packages'
+[3.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_team_ex_stuck', 'pythonpath')
+[3.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/hook/pythonpath.ps1'
+[3.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/hook/pythonpath.dsv'
+[3.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/hook/pythonpath.sh'
+[3.610s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/bin'
+[3.610s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_team_ex_stuck)
+[3.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/package.ps1'
+[3.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/package.dsv'
+[3.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/package.sh'
+[3.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/package.bash'
+[3.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/two_team_ex_stuck/package.zsh'
+[3.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/two_team_ex_stuck/share/colcon-core/packages/two_team_ex_stuck)
+[3.613s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_du_stuck' for CMake module files
+[3.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/six_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/six_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/six_team_du_stuck/install.log --install-scripts $base/lib/six_team_du_stuck --single-version-externally-managed
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_du_stuck' for CMake config files
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib'
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_du_stuck/bin'
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/pkgconfig/six_team_du_stuck.pc'
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages'
+[3.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_team_du_stuck', 'pythonpath')
+[3.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/hook/pythonpath.ps1'
+[3.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/hook/pythonpath.dsv'
+[3.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/hook/pythonpath.sh'
+[3.616s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/six_team_du_stuck/bin'
+[3.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(six_team_du_stuck)
+[3.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/package.ps1'
+[3.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/package.dsv'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/package.sh'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/package.bash'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/six_team_du_stuck/package.zsh'
+[3.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/six_team_du_stuck/share/colcon-core/packages/six_team_du_stuck)
+[3.620s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg' for CMake module files
+[3.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/single_ex_sim_pkg build --build-base /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/build install --record /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/install.log --install-scripts $base/lib/single_ex_sim_pkg --single-version-externally-managed
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg' for CMake config files
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib'
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/bin'
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/pkgconfig/single_ex_sim_pkg.pc'
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages'
+[3.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_ex_sim_pkg', 'pythonpath')
+[3.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/hook/pythonpath.ps1'
+[3.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/hook/pythonpath.dsv'
+[3.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/hook/pythonpath.sh'
+[3.623s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/bin'
+[3.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(single_ex_sim_pkg)
+[3.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/package.ps1'
+[3.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/package.dsv'
+[3.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/package.sh'
+[3.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/package.bash'
+[3.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg/package.zsh'
+[3.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/colcon-core/packages/single_ex_sim_pkg)
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/testplay' for CMake module files
+[3.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/testplay' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testplay build --build-base /home/swarm-team/ros2_ws/build/testplay/build install --record /home/swarm-team/ros2_ws/build/testplay/install.log --install-scripts $base/lib/testplay --single-version-externally-managed
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/testplay' for CMake config files
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/testplay/lib'
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/testplay/bin'
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/testplay/lib/pkgconfig/testplay.pc'
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages'
+[3.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('testplay', 'pythonpath')
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/testplay/share/testplay/hook/pythonpath.ps1'
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/testplay/share/testplay/hook/pythonpath.dsv'
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/testplay/share/testplay/hook/pythonpath.sh'
+[3.628s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/testplay/bin'
+[3.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testplay)
+[3.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/testplay/share/testplay/package.ps1'
+[3.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/testplay/share/testplay/package.dsv'
+[3.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/testplay/share/testplay/package.sh'
+[3.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/testplay/share/testplay/package.bash'
+[3.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/testplay/share/testplay/package.zsh'
+[3.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/testplay/share/colcon-core/packages/testplay)
+[3.631s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_ex_stuck' for CMake module files
+[3.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/three_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/three_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/three_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/three_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/three_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/three_team_ex_stuck/install.log --install-scripts $base/lib/three_team_ex_stuck --single-version-externally-managed
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_ex_stuck' for CMake config files
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/lib'
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/bin'
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/lib/pkgconfig/three_team_ex_stuck.pc'
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/lib/python3.8/site-packages'
+[3.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('three_team_ex_stuck', 'pythonpath')
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/hook/pythonpath.ps1'
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/hook/pythonpath.dsv'
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/hook/pythonpath.sh'
+[3.635s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/bin'
+[3.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(three_team_ex_stuck)
+[3.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/package.ps1'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/package.dsv'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/package.sh'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/package.bash'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/three_team_ex_stuck/package.zsh'
+[3.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/three_team_ex_stuck/share/colcon-core/packages/three_team_ex_stuck)
+[3.637s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master' for CMake module files
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master' for CMake config files
+[3.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/single_ex_sim_pkg_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/single_ex_sim_pkg_master build --build-base /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/build install --record /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/install.log --install-scripts $base/lib/single_ex_sim_pkg_master --single-version-externally-managed
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/bin'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/pkgconfig/single_ex_sim_pkg_master.pc'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages'
+[3.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('single_ex_sim_pkg_master', 'pythonpath')
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/hook/pythonpath.ps1'
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/hook/pythonpath.dsv'
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/hook/pythonpath.sh'
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/bin'
+[3.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(single_ex_sim_pkg_master)
+[3.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/package.ps1'
+[3.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/package.dsv'
+[3.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/package.sh'
+[3.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/package.bash'
+[3.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/single_ex_sim_pkg_master/package.zsh'
+[3.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/share/colcon-core/packages/single_ex_sim_pkg_master)
+[3.642s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_stuck' for CMake module files
+[3.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/one_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/one_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/one_team_ex_stuck/install.log --install-scripts $base/lib/one_team_ex_stuck --single-version-externally-managed
+[3.643s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_stuck' for CMake config files
+[3.643s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib'
+[3.643s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/bin'
+[3.643s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/pkgconfig/one_team_ex_stuck.pc'
+[3.644s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/python3.8/site-packages'
+[3.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('one_team_ex_stuck', 'pythonpath')
+[3.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/hook/pythonpath.ps1'
+[3.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/hook/pythonpath.dsv'
+[3.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/hook/pythonpath.sh'
+[3.645s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/bin'
+[3.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(one_team_ex_stuck)
+[3.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/package.ps1'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/package.dsv'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/package.sh'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/package.bash'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck/package.zsh'
+[3.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/colcon-core/packages/one_team_ex_stuck)
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_du_stuck' for CMake module files
+[3.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swarm-team/ros2_ws/src/two_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/two_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/two_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/two_team_du_stuck/install.log --install-scripts $base/lib/two_team_du_stuck --single-version-externally-managed
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_du_stuck' for CMake config files
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib'
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_du_stuck/bin'
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/pkgconfig/two_team_du_stuck.pc'
+[3.649s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages'
+[3.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_team_du_stuck', 'pythonpath')
+[3.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/hook/pythonpath.ps1'
+[3.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/hook/pythonpath.dsv'
+[3.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/hook/pythonpath.sh'
+[3.650s] Level 1:colcon.colcon_core.environment:checking '/home/swarm-team/ros2_ws/install/two_team_du_stuck/bin'
+[3.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_team_du_stuck)
+[3.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/package.ps1'
+[3.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/package.dsv'
+[3.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/package.sh'
+[3.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/package.bash'
+[3.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/two_team_du_stuck/package.zsh'
+[3.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swarm-team/ros2_ws/install/two_team_du_stuck/share/colcon-core/packages/two_team_du_stuck)
+[3.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.652s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.655s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.655s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.655s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.662s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swarm-team/ros2_ws/install/local_setup.ps1'
+[3.664s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swarm-team/ros2_ws/install/_local_setup_util_ps1.py'
+[3.665s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swarm-team/ros2_ws/install/setup.ps1'
+[3.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swarm-team/ros2_ws/install/local_setup.sh'
+[3.666s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swarm-team/ros2_ws/install/_local_setup_util_sh.py'
+[3.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swarm-team/ros2_ws/install/setup.sh'
+[3.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swarm-team/ros2_ws/install/local_setup.bash'
+[3.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swarm-team/ros2_ws/install/setup.bash'
+[3.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swarm-team/ros2_ws/install/local_setup.zsh'
+[3.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swarm-team/ros2_ws/install/setup.zsh'

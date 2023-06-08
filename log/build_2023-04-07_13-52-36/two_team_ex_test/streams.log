@@ -1,0 +1,24 @@
+[2.825s] Invoking command in '/home/swarm-team/ros2_ws/build/two_team_ex_test': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_ex_test/prefix_override:/home/swarm-team/ros2_ws/install/two_team_ex_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_ex_test/build --no-deps install_data
+[3.240s] running develop
+[3.364s] running egg_info
+[3.364s] writing two_team_ex_test.egg-info/PKG-INFO
+[3.364s] writing dependency_links to two_team_ex_test.egg-info/dependency_links.txt
+[3.364s] writing entry points to two_team_ex_test.egg-info/entry_points.txt
+[3.364s] writing requirements to two_team_ex_test.egg-info/requires.txt
+[3.364s] writing top-level names to two_team_ex_test.egg-info/top_level.txt
+[3.382s] reading manifest file 'two_team_ex_test.egg-info/SOURCES.txt'
+[3.382s] writing manifest file 'two_team_ex_test.egg-info/SOURCES.txt'
+[3.400s] running build_ext
+[3.401s] Creating /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/python3.8/site-packages/two-team-ex-test.egg-link (link to .)
+[3.401s] Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+[3.401s] Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+[3.401s] Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+[3.401s] Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+[3.401s] Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+[3.401s] Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+[3.401s] Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+[3.401s] Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+[3.401s] 
+[3.402s] Installed /home/swarm-team/ros2_ws/build/two_team_ex_test
+[3.402s] running install_data
+[3.447s] Invoked command in '/home/swarm-team/ros2_ws/build/two_team_ex_test' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_ex_test/prefix_override:/home/swarm-team/ros2_ws/install/two_team_ex_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_ex_test/build --no-deps install_data

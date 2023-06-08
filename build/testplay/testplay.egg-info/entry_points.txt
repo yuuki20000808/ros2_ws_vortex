@@ -1,0 +1,22 @@
+[console_scripts]
+du_communication_010 = testplay.du_communication_010_src:main
+du_communication_011 = testplay.du_communication_011_src:main
+du_communication_012 = testplay.du_communication_012_src:main
+du_communication_013 = testplay.du_communication_013_src:main
+du_communication_014 = testplay.du_communication_014_src:main
+du_communication_015 = testplay.du_communication_015_src:main
+du_communication_016 = testplay.du_communication_016_src:main
+du_communication_017 = testplay.du_communication_017_src:main
+du_communication_018 = testplay.du_communication_018_src:main
+du_communication_080 = testplay.du_communication_080_src:main
+du_controller_010 = testplay.du_controller_010_src:main
+du_controller_011 = testplay.du_controller_011_src:main
+du_controller_012 = testplay.du_controller_012_src:main
+du_controller_013 = testplay.du_controller_013_src:main
+du_controller_014 = testplay.du_controller_014_src:main
+du_controller_015 = testplay.du_controller_015_src:main
+du_controller_016 = testplay.du_controller_016_src:main
+du_controller_017 = testplay.du_controller_017_src:main
+du_controller_018 = testplay.du_controller_018_src:main
+du_controller_080 = testplay.du_controller_080_src:main
+

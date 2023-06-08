@@ -1,0 +1,36 @@
+[2.282s] Invoking command in '/home/swarm-team/ros2_ws/build/testplay': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/testplay/build --no-deps install_data
+[2.569s] running develop
+[2.631s] running egg_info
+[2.631s] writing testplay.egg-info/PKG-INFO
+[2.631s] writing dependency_links to testplay.egg-info/dependency_links.txt
+[2.631s] writing entry points to testplay.egg-info/entry_points.txt
+[2.631s] writing requirements to testplay.egg-info/requires.txt
+[2.631s] writing top-level names to testplay.egg-info/top_level.txt
+[2.648s] reading manifest file 'testplay.egg-info/SOURCES.txt'
+[2.649s] writing manifest file 'testplay.egg-info/SOURCES.txt'
+[2.666s] running build_ext
+[2.666s] Creating /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay.egg-link (link to .)
+[2.666s] Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[2.667s] 
+[2.667s] Installed /home/swarm-team/ros2_ws/build/testplay
+[2.668s] running install_data
+[2.679s] Invoked command in '/home/swarm-team/ros2_ws/build/testplay' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/testplay/build --no-deps install_data

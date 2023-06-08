@@ -1,0 +1,28 @@
+[1.940s] Invoking command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/build --no-deps install_data
+[2.067s] running develop
+[2.131s] running egg_info
+[2.131s] creating single_ex_sim_pkg.egg-info
+[2.131s] writing single_ex_sim_pkg.egg-info/PKG-INFO
+[2.131s] writing dependency_links to single_ex_sim_pkg.egg-info/dependency_links.txt
+[2.131s] writing entry points to single_ex_sim_pkg.egg-info/entry_points.txt
+[2.131s] writing requirements to single_ex_sim_pkg.egg-info/requires.txt
+[2.131s] writing top-level names to single_ex_sim_pkg.egg-info/top_level.txt
+[2.132s] writing manifest file 'single_ex_sim_pkg.egg-info/SOURCES.txt'
+[2.150s] reading manifest file 'single_ex_sim_pkg.egg-info/SOURCES.txt'
+[2.151s] writing manifest file 'single_ex_sim_pkg.egg-info/SOURCES.txt'
+[2.171s] running build_ext
+[2.171s] Creating /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages/site.py
+[2.172s] Creating /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages/single-ex-sim-pkg.egg-link (link to .)
+[2.174s] Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/single_ex_sim_pkg
+[2.174s] Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/single_ex_sim_pkg
+[2.175s] Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/single_ex_sim_pkg
+[2.175s] Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/single_ex_sim_pkg
+[2.175s] 
+[2.175s] Installed /home/swarm-team/ros2_ws/build/single_ex_sim_pkg
+[2.175s] running install_data
+[2.175s] creating /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/ament_index
+[2.175s] creating /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/ament_index/resource_index
+[2.175s] creating /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/ament_index/resource_index/packages
+[2.176s] copying resource/single_ex_sim_pkg -> /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/ament_index/resource_index/packages
+[2.176s] copying package.xml -> /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/share/single_ex_sim_pkg
+[2.202s] Invoked command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/build --no-deps install_data

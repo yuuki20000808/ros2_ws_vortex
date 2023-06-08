@@ -1,0 +1,36 @@
+[2.828s] Invoking command in '/home/swarm-team/ros2_ws/build/one_team_du_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_du_base_master/build --no-deps install_data
+[3.065s] running develop
+[3.205s] running egg_info
+[3.205s] writing one_team_du_base_master.egg-info/PKG-INFO
+[3.205s] writing dependency_links to one_team_du_base_master.egg-info/dependency_links.txt
+[3.205s] writing entry points to one_team_du_base_master.egg-info/entry_points.txt
+[3.206s] writing requirements to one_team_du_base_master.egg-info/requires.txt
+[3.206s] writing top-level names to one_team_du_base_master.egg-info/top_level.txt
+[3.240s] reading manifest file 'one_team_du_base_master.egg-info/SOURCES.txt'
+[3.241s] writing manifest file 'one_team_du_base_master.egg-info/SOURCES.txt'
+[3.269s] running build_ext
+[3.269s] Creating /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one-team-du-base-master.egg-link (link to .)
+[3.269s] Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.269s] Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+[3.270s] 
+[3.270s] Installed /home/swarm-team/ros2_ws/build/one_team_du_base_master
+[3.270s] running install_data
+[3.294s] Invoked command in '/home/swarm-team/ros2_ws/build/one_team_du_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_du_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_du_base_master/build --no-deps install_data

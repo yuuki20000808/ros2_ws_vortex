@@ -1,0 +1,36 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:368: UserWarning: Unbuilt egg for three-team-du-stuck 0.0.0 (/home/swarm-team/ros2_ws/build/three_team_du_stuck)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+writing testplay.egg-info/PKG-INFO
+writing dependency_links to testplay.egg-info/dependency_links.txt
+writing entry points to testplay.egg-info/entry_points.txt
+writing requirements to testplay.egg-info/requires.txt
+writing top-level names to testplay.egg-info/top_level.txt
+reading manifest file 'testplay.egg-info/SOURCES.txt'
+writing manifest file 'testplay.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay.egg-link (link to .)
+Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+
+Installed /home/swarm-team/ros2_ws/build/testplay
+running install_data

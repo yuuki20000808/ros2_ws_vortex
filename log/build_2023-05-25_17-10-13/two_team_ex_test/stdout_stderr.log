@@ -1,0 +1,25 @@
+running develop
+running egg_info
+writing two_team_ex_test.egg-info/PKG-INFO
+writing dependency_links to two_team_ex_test.egg-info/dependency_links.txt
+writing entry points to two_team_ex_test.egg-info/entry_points.txt
+writing requirements to two_team_ex_test.egg-info/requires.txt
+writing top-level names to two_team_ex_test.egg-info/top_level.txt
+reading manifest file 'two_team_ex_test.egg-info/SOURCES.txt'
+writing manifest file 'two_team_ex_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/python3.8/site-packages/two-team-ex-test.egg-link (link to .)
+Installing dump_info_server script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_communication_005 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_controller_005 script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/two_team_ex_test/lib/two_team_ex_test
+
+Installed /home/swarm-team/ros2_ws/build/two_team_ex_test
+running install_data

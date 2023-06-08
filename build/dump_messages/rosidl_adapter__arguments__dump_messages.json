@@ -1,0 +1,10 @@
+{
+  "package_name": "dump_messages",
+  "non_idl_tuples": [
+    "/home/swarm-team/ros2_ws/src/dump_messages:msg/DumpCNP.msg",
+    "/home/swarm-team/ros2_ws/src/dump_messages:msg/DumpInfoForServer.msg",
+    "/home/swarm-team/ros2_ws/src/dump_messages:msg/ExPosAndTeamNumber.msg",
+    "/home/swarm-team/ros2_ws/src/dump_messages:srv/Dumpbool.srv",
+    "/home/swarm-team/ros2_ws/src/dump_messages:srv/AddThreeInts.srv"
+  ]
+}

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating two_team_ex_cnp.egg-info
+writing two_team_ex_cnp.egg-info/PKG-INFO
+writing dependency_links to two_team_ex_cnp.egg-info/dependency_links.txt
+writing entry points to two_team_ex_cnp.egg-info/entry_points.txt
+writing requirements to two_team_ex_cnp.egg-info/requires.txt
+writing top-level names to two_team_ex_cnp.egg-info/top_level.txt
+writing manifest file 'two_team_ex_cnp.egg-info/SOURCES.txt'
+reading manifest file 'two_team_ex_cnp.egg-info/SOURCES.txt'
+writing manifest file 'two_team_ex_cnp.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/lib/python3.8/site-packages/site.py
+Creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/lib/python3.8/site-packages/two-team-ex-cnp.egg-link (link to .)
+
+Installed /home/swarm-team/ros2_ws/build/two_team_ex_cnp
+running install_data
+creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/ament_index
+creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/ament_index/resource_index
+creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/ament_index/resource_index/packages
+copying resource/two_team_ex_cnp -> /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/ament_index/resource_index/packages
+copying package.xml -> /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/two_team_ex_cnp

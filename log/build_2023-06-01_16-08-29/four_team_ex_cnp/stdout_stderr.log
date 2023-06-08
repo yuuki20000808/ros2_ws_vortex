@@ -1,0 +1,27 @@
+running develop
+running egg_info
+writing four_team_ex_cnp.egg-info/PKG-INFO
+writing dependency_links to four_team_ex_cnp.egg-info/dependency_links.txt
+writing entry points to four_team_ex_cnp.egg-info/entry_points.txt
+writing requirements to four_team_ex_cnp.egg-info/requires.txt
+writing top-level names to four_team_ex_cnp.egg-info/top_level.txt
+reading manifest file 'four_team_ex_cnp.egg-info/SOURCES.txt'
+writing manifest file 'four_team_ex_cnp.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/python3.8/site-packages/four-team-ex-cnp.egg-link (link to .)
+Installing dump_info_server script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_communication_004 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_communication_005 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_controller_004 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_controller_005 script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/four_team_ex_cnp/lib/four_team_ex_cnp
+
+Installed /home/swarm-team/ros2_ws/build/four_team_ex_cnp
+running install_data

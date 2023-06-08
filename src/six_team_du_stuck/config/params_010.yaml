@@ -1,0 +1,8 @@
+coope_controler:
+  ros__parameters:
+    param_turtlePublish_controller: 'du_010/cmd_vel'
+    param_turtleSubsc_controller: 'du_010/pose'
+    param_turtlePublish_communication: 'du_010/pose'
+    param_turtleSubsc_communication: 'du_010/cmd_vel'
+    param_timer_period: '0.1'
+

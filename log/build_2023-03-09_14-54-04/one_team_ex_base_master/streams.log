@@ -1,0 +1,31 @@
+[2.492s] Invoking command in '/home/swarm-team/ros2_ws/build/one_team_ex_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build
+[2.751s] running develop
+[2.955s] Invoked command in '/home/swarm-team/ros2_ws/build/one_team_ex_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build
+[2.956s] Invoking command in '/home/swarm-team/ros2_ws/src/one_team_ex_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_ex_base_master build --build-base /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build install --record /home/swarm-team/ros2_ws/build/one_team_ex_base_master/install.log --install-scripts $base/lib/one_team_ex_base_master --single-version-externally-managed
+[3.258s] running egg_info
+[3.262s] writing ../../build/one_team_ex_base_master/one_team_ex_base_master.egg-info/PKG-INFO
+[3.263s] writing dependency_links to ../../build/one_team_ex_base_master/one_team_ex_base_master.egg-info/dependency_links.txt
+[3.263s] writing entry points to ../../build/one_team_ex_base_master/one_team_ex_base_master.egg-info/entry_points.txt
+[3.263s] writing requirements to ../../build/one_team_ex_base_master/one_team_ex_base_master.egg-info/requires.txt
+[3.264s] writing top-level names to ../../build/one_team_ex_base_master/one_team_ex_base_master.egg-info/top_level.txt
+[3.276s] reading manifest file '../../build/one_team_ex_base_master/one_team_ex_base_master.egg-info/SOURCES.txt'
+[3.278s] writing manifest file '../../build/one_team_ex_base_master/one_team_ex_base_master.egg-info/SOURCES.txt'
+[3.278s] running build
+[3.278s] running build_py
+[3.278s] running install
+[3.279s] running install_lib
+[3.279s] running install_data
+[3.279s] running install_egg_info
+[3.279s] removing '/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages/one_team_ex_base_master-0.0.0-py3.8.egg-info' (and everything under it)
+[3.280s] Copying ../../build/one_team_ex_base_master/one_team_ex_base_master.egg-info to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages/one_team_ex_base_master-0.0.0-py3.8.egg-info
+[3.280s] running install_scripts
+[3.292s] Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.293s] Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.294s] Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.294s] Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.294s] Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.294s] Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.294s] Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.295s] Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.295s] writing list of installed files to '/home/swarm-team/ros2_ws/build/one_team_ex_base_master/install.log'
+[3.336s] Invoked command in '/home/swarm-team/ros2_ws/src/one_team_ex_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/one_team_ex_base_master build --build-base /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build install --record /home/swarm-team/ros2_ws/build/one_team_ex_base_master/install.log --install-scripts $base/lib/one_team_ex_base_master --single-version-externally-managed

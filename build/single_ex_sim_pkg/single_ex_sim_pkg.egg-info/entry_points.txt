@@ -1,0 +1,6 @@
+[console_scripts]
+ex_communication_000 = single_ex_sim_pkg.ex_communication_010_src:main
+ex_communication_001 = single_ex_sim_pkg.ex_communication_011_src:main
+ex_controller_000 = single_ex_sim_pkg.ex_controller_010_src:main
+ex_controller_001 = single_ex_sim_pkg.ex_controller_011_src:main
+

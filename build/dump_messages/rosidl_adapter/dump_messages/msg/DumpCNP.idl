@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dump_messages/msg/DumpCNP.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module dump_messages {
+  module msg {
+    struct DumpCNP {
+      int64 id;
+
+      boolean operational;
+
+      geometry_msgs::msg::Point position;
+    };
+  };
+};

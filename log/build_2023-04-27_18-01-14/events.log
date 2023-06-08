@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (dump_messages) JobQueued: {'identifier': 'dump_messages', 'dependencies': OrderedDict()}
+[0.000135] (four_team_du_stuck) JobQueued: {'identifier': 'four_team_du_stuck', 'dependencies': OrderedDict()}
+[0.000145] (four_team_ex_stuck) JobQueued: {'identifier': 'four_team_ex_stuck', 'dependencies': OrderedDict()}
+[0.000152] (multi_du_udpcomm_01_pkg) JobQueued: {'identifier': 'multi_du_udpcomm_01_pkg', 'dependencies': OrderedDict()}
+[0.000158] (multi_du_udpcomm_02_pkg) JobQueued: {'identifier': 'multi_du_udpcomm_02_pkg', 'dependencies': OrderedDict()}
+[0.000165] (one_team_du_base_master) JobQueued: {'identifier': 'one_team_du_base_master', 'dependencies': OrderedDict()}
+[0.000172] (one_team_du_stuck) JobQueued: {'identifier': 'one_team_du_stuck', 'dependencies': OrderedDict()}
+[0.000180] (one_team_ex_base_master) JobQueued: {'identifier': 'one_team_ex_base_master', 'dependencies': OrderedDict()}
+[0.000186] (one_team_ex_stuck) JobQueued: {'identifier': 'one_team_ex_stuck', 'dependencies': OrderedDict()}
+[0.000193] (single_ex_sim_pkg) JobQueued: {'identifier': 'single_ex_sim_pkg', 'dependencies': OrderedDict()}
+[0.000199] (single_ex_sim_pkg_master) JobQueued: {'identifier': 'single_ex_sim_pkg_master', 'dependencies': OrderedDict()}
+[0.000206] (six_team_du_stuck) JobQueued: {'identifier': 'six_team_du_stuck', 'dependencies': OrderedDict()}
+[0.000213] (six_team_ex_stuck) JobQueued: {'identifier': 'six_team_ex_stuck', 'dependencies': OrderedDict()}
+[0.000220] (testplay) JobQueued: {'identifier': 'testplay', 'dependencies': OrderedDict()}
+[0.000228] (three_team_du_stuck) JobQueued: {'identifier': 'three_team_du_stuck', 'dependencies': OrderedDict()}
+[0.000234] (three_team_ex_stuck) JobQueued: {'identifier': 'three_team_ex_stuck', 'dependencies': OrderedDict()}
+[0.000242] (two_team_du_stuck) JobQueued: {'identifier': 'two_team_du_stuck', 'dependencies': OrderedDict()}
+[0.000248] (two_team_ex_stuck) JobQueued: {'identifier': 'two_team_ex_stuck', 'dependencies': OrderedDict()}
+[0.000255] (two_team_du_test) JobQueued: {'identifier': 'two_team_du_test', 'dependencies': OrderedDict([('dump_messages', '/home/swarm-team/ros2_ws/install/dump_messages')])}
+[0.000265] (two_team_ex_test) JobQueued: {'identifier': 'two_team_ex_test', 'dependencies': OrderedDict([('dump_messages', '/home/swarm-team/ros2_ws/install/dump_messages')])}
+[0.001277] (dump_messages) JobStarted: {'identifier': 'dump_messages'}
+[0.007813] (four_team_du_stuck) JobStarted: {'identifier': 'four_team_du_stuck'}
+[0.013719] (four_team_ex_stuck) JobStarted: {'identifier': 'four_team_ex_stuck'}
+[0.019877] (multi_du_udpcomm_01_pkg) JobStarted: {'identifier': 'multi_du_udpcomm_01_pkg'}
+[0.025393] (multi_du_udpcomm_02_pkg) JobStarted: {'identifier': 'multi_du_udpcomm_02_pkg'}
+[0.030917] (one_team_du_base_master) JobStarted: {'identifier': 'one_team_du_base_master'}
+[0.036988] (one_team_du_stuck) JobStarted: {'identifier': 'one_team_du_stuck'}
+[0.042494] (one_team_ex_base_master) JobStarted: {'identifier': 'one_team_ex_base_master'}
+[0.047959] (one_team_ex_stuck) JobStarted: {'identifier': 'one_team_ex_stuck'}
+[0.053749] (single_ex_sim_pkg) JobStarted: {'identifier': 'single_ex_sim_pkg'}
+[0.059330] (single_ex_sim_pkg_master) JobStarted: {'identifier': 'single_ex_sim_pkg_master'}
+[0.064809] (six_team_du_stuck) JobStarted: {'identifier': 'six_team_du_stuck'}
+[0.070972] (six_team_ex_stuck) JobStarted: {'identifier': 'six_team_ex_stuck'}
+[0.076659] (testplay) JobStarted: {'identifier': 'testplay'}
+[0.081803] (three_team_du_stuck) JobStarted: {'identifier': 'three_team_du_stuck'}
+[0.088061] (three_team_ex_stuck) JobStarted: {'identifier': 'three_team_ex_stuck'}
+[0.093632] (two_team_du_stuck) JobStarted: {'identifier': 'two_team_du_stuck'}
+[0.099882] (-) TimerEvent: {}
+[0.101653] (two_team_ex_stuck) JobStarted: {'identifier': 'two_team_ex_stuck'}
+[0.110825] (dump_messages) JobProgress: {'identifier': 'dump_messages', 'progress': 'cmake'}
+[0.111202] (dump_messages) JobProgress: {'identifier': 'dump_messages', 'progress': 'build'}
+[0.111622] (dump_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/swarm-team/ros2_ws/build/dump_messages', '--', '-j20', '-l20'], 'cwd': '/home/swarm-team/ros2_ws/build/dump_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'swarm-team'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '1257'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/swarm-team/ros2_ws/install/dump_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/swarm-team'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1010'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/swarm-team/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'swarm-team'), ('JOURNAL_STREAM', '8:52475'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'swarm-team'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/swarmteam-ROS2:@/tmp/.ICE-unix/1298,unix/swarmteam-ROS2:/tmp/.ICE-unix/1298'), ('INVOCATION_ID', '668ca6d137a140f1ab08ba21f3effd5c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/43568ffa_36d2_4211_b8c4_72c411ad4cfa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3624'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/swarm-team/ros2_ws/install/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck:/home/swarm-team/ros2_ws/install/testplay:/home/swarm-team/ros2_ws/install/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_base_master:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck:/home/swarm-team/ros2_ws/install/dump_messages:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/swarm-team/ros2_ws/build/dump_messages'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/swarm-team/ros2_ws/build/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_test/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_ex_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_test/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/two_team_du_stuck:/home/swarm-team/ros2_ws/install/two_team_du_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/three_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/testplay:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/six_team_du_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/one_team_du_base_master:/home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_ex_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/build/four_team_du_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck/lib/python3.8/site-packages:/home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/swarm-team/ros2_ws/install/dump_messages:/home/swarm-team/ros2_ws/install/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck:/home/swarm-team/ros2_ws/install/testplay:/home/swarm-team/ros2_ws/install/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_base_master:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck:/opt/ros/foxy')]), 'shell': False}
+[0.199969] (-) TimerEvent: {}
+[0.300393] (-) TimerEvent: {}
+[0.400840] (-) TimerEvent: {}
+[0.501207] (-) TimerEvent: {}
+[0.601531] (-) TimerEvent: {}
+[0.701951] (-) TimerEvent: {}
+[0.802285] (-) TimerEvent: {}
+[0.902562] (-) TimerEvent: {}
+[1.002829] (-) TimerEvent: {}
+[1.103183] (-) TimerEvent: {}
+[1.203538] (-) TimerEvent: {}
+[1.303922] (-) TimerEvent: {}
+[1.404279] (-) TimerEvent: {}
+[1.504611] (-) TimerEvent: {}
+[1.604899] (-) TimerEvent: {}
+[1.705153] (-) TimerEvent: {}
+[1.805481] (-) TimerEvent: {}
+[1.905828] (-) TimerEvent: {}
+[2.006103] (-) TimerEvent: {}
+[2.106470] (-) TimerEvent: {}
+[2.206833] (-) TimerEvent: {}
+[2.307123] (-) TimerEvent: {}
+[2.407372] (-) TimerEvent: {}
+[2.471667] (dump_messages) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.472054] (dump_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.472097] (dump_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.472128] (dump_messages) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.472157] (dump_messages) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.472184] (dump_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.472213] (dump_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.472240] (dump_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.472270] (dump_messages) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[2.472296] (dump_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.472320] (dump_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.472345] (dump_messages) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.472370] (dump_messages) StdoutLine: {'line': b'See also "/home/swarm-team/ros2_ws/build/dump_messages/CMakeFiles/CMakeOutput.log".\n'}
+[2.472397] (dump_messages) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.472437] (dump_messages) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[2.472464] (dump_messages) StderrLine: {'line': b'  dump_messages --arguments-file\n'}
+[2.472488] (dump_messages) StderrLine: {'line': b'  /home/swarm-team/ros2_ws/build/dump_messages/rosidl_adapter__arguments__dump_messages.json\n'}
+[2.472514] (dump_messages) StderrLine: {'line': b'  --output-dir\n'}
+[2.472538] (dump_messages) StderrLine: {'line': b'  /home/swarm-team/ros2_ws/build/dump_messages/rosidl_adapter/dump_messages\n'}
+[2.472563] (dump_messages) StderrLine: {'line': b'  --output-file\n'}
+[2.472588] (dump_messages) StderrLine: {'line': b'  /home/swarm-team/ros2_ws/build/dump_messages/rosidl_adapter/dump_messages.idls)\n'}
+[2.472618] (dump_messages) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.472643] (dump_messages) StderrLine: {'line': b'\n'}
+[2.472666] (dump_messages) StderrLine: {'line': b"  Error processing 'turtlesim.msg/Pose pos' of\n"}
+[2.472690] (dump_messages) StderrLine: {'line': b"  'dump_messages/ExPosAndTeamNumber': ''turtlesim.msg' is an invalid package\n"}
+[2.472714] (dump_messages) StderrLine: {'line': b"  name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[2.472738] (dump_messages) StderrLine: {'line': b'\n'}
+[2.472764] (dump_messages) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.472799] (dump_messages) StderrLine: {'line': b'\n'}
+[2.472825] (dump_messages) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[2.472850] (dump_messages) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.472878] (dump_messages) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[2.472902] (dump_messages) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.472926] (dump_messages) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.472960] (dump_messages) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.473017] (dump_messages) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.473043] (dump_messages) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.473068] (dump_messages) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[2.473093] (dump_messages) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[2.473119] (dump_messages) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[2.473156] (dump_messages) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[2.473205] (dump_messages) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[2.473250] (dump_messages) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[2.473287] (dump_messages) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[2.473325] (dump_messages) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[2.473365] (dump_messages) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 200, in __init__\n'}
+[2.473408] (dump_messages) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[2.473488] (dump_messages) StderrLine: {'line': b'\n'}
+[2.473537] (dump_messages) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'turtlesim.msg' is an invalid\n"}
+[2.473582] (dump_messages) StderrLine: {'line': b'  package name.  It should have the pattern\n'}
+[2.473615] (dump_messages) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[2.473642] (dump_messages) StderrLine: {'line': b'\n'}
+[2.473667] (dump_messages) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.473691] (dump_messages) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.473715] (dump_messages) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[2.473739] (dump_messages) StderrLine: {'line': b'\n'}
+[2.473762] (dump_messages) StderrLine: {'line': b'\n'}
+[2.473785] (dump_messages) StderrLine: {'line': b'make: *** [Makefile:1228: cmake_check_build_system] Error 1\n'}
+[2.474970] (dump_messages) CommandEnded: {'returncode': 2}
+[2.507467] (-) TimerEvent: {}
+[2.603905] (dump_messages) JobEnded: {'identifier': 'dump_messages', 'rc': 2}
+[2.607566] (-) TimerEvent: {}
+[2.707857] (-) TimerEvent: {}
+[2.808189] (-) TimerEvent: {}
+[2.881532] (four_team_ex_stuck) JobEnded: {'identifier': 'four_team_ex_stuck', 'rc': 'SIGINT'}
+[2.901792] (four_team_du_stuck) JobEnded: {'identifier': 'four_team_du_stuck', 'rc': 'SIGINT'}
+[2.908300] (-) TimerEvent: {}
+[2.933760] (one_team_du_stuck) JobEnded: {'identifier': 'one_team_du_stuck', 'rc': 'SIGINT'}
+[2.943236] (one_team_ex_stuck) JobEnded: {'identifier': 'one_team_ex_stuck', 'rc': 'SIGINT'}
+[2.953238] (multi_du_udpcomm_02_pkg) JobEnded: {'identifier': 'multi_du_udpcomm_02_pkg', 'rc': 'SIGINT'}
+[2.967464] (one_team_ex_base_master) JobEnded: {'identifier': 'one_team_ex_base_master', 'rc': 'SIGINT'}
+[2.970712] (multi_du_udpcomm_01_pkg) JobEnded: {'identifier': 'multi_du_udpcomm_01_pkg', 'rc': 'SIGINT'}
+[2.995312] (one_team_du_base_master) JobEnded: {'identifier': 'one_team_du_base_master', 'rc': 'SIGINT'}
+[2.998135] (six_team_du_stuck) JobEnded: {'identifier': 'six_team_du_stuck', 'rc': 'SIGINT'}
+[3.003951] (testplay) JobEnded: {'identifier': 'testplay', 'rc': 'SIGINT'}
+[3.008380] (-) TimerEvent: {}
+[3.013123] (six_team_ex_stuck) JobEnded: {'identifier': 'six_team_ex_stuck', 'rc': 'SIGINT'}
+[3.022237] (three_team_du_stuck) JobEnded: {'identifier': 'three_team_du_stuck', 'rc': 'SIGINT'}
+[3.027801] (two_team_du_stuck) JobEnded: {'identifier': 'two_team_du_stuck', 'rc': 'SIGINT'}
+[3.031378] (single_ex_sim_pkg_master) JobEnded: {'identifier': 'single_ex_sim_pkg_master', 'rc': 'SIGINT'}
+[3.039892] (two_team_ex_stuck) JobEnded: {'identifier': 'two_team_ex_stuck', 'rc': 'SIGINT'}
+[3.046122] (single_ex_sim_pkg) JobEnded: {'identifier': 'single_ex_sim_pkg', 'rc': 'SIGINT'}
+[3.059288] (three_team_ex_stuck) JobEnded: {'identifier': 'three_team_ex_stuck', 'rc': 'SIGINT'}
+[3.069624] (two_team_du_test) JobSkipped: {'identifier': 'two_team_du_test'}
+[3.069673] (two_team_ex_test) JobSkipped: {'identifier': 'two_team_ex_test'}
+[3.069687] (-) EventReactorShutdown: {}

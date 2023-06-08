@@ -1,0 +1,60 @@
+[0.113s] Invoking command in '/home/swarm-team/ros2_ws/build/dump_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swarm-team/ros2_ws/install/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck:/home/swarm-team/ros2_ws/install/testplay:/home/swarm-team/ros2_ws/install/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_base_master:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck:/opt/ros/foxy /usr/bin/cmake --build /home/swarm-team/ros2_ws/build/dump_messages -- -j20 -l20
+[2.471s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.471s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.471s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.471s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.471s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.471s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.471s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.471s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.471s] -- Configuring incomplete, errors occurred!
+[2.471s] See also "/home/swarm-team/ros2_ws/build/dump_messages/CMakeFiles/CMakeOutput.log".
+[2.471s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[2.471s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[2.471s]   dump_messages --arguments-file
+[2.471s]   /home/swarm-team/ros2_ws/build/dump_messages/rosidl_adapter__arguments__dump_messages.json
+[2.471s]   --output-dir
+[2.471s]   /home/swarm-team/ros2_ws/build/dump_messages/rosidl_adapter/dump_messages
+[2.471s]   --output-file
+[2.471s]   /home/swarm-team/ros2_ws/build/dump_messages/rosidl_adapter/dump_messages.idls)
+[2.471s]   returned error code 1:
+[2.471s] 
+[2.471s]   Error processing 'turtlesim.msg/Pose pos' of
+[2.471s]   'dump_messages/ExPosAndTeamNumber': ''turtlesim.msg' is an invalid package
+[2.471s]   name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[2.471s] 
+[2.471s]   Traceback (most recent call last):
+[2.472s] 
+[2.472s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2.472s]       return _run_code(code, main_globals, None,
+[2.472s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[2.472s]       exec(code, run_globals)
+[2.472s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.472s]       sys.exit(main())
+[2.472s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[2.472s]       abs_idl_file = convert_to_idl(
+[2.472s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[2.472s]       return convert_msg_to_idl(
+[2.472s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[2.472s]       msg = parse_message_string(package_name, input_file.stem, content)
+[2.472s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[2.472s]       Type(type_string, context_package_name=pkg_name),
+[2.472s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[2.472s]       super(Type, self).__init__(
+[2.472s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 200, in __init__
+[2.472s]       raise InvalidResourceName(
+[2.472s] 
+[2.472s]   rosidl_adapter.parser.InvalidResourceName: 'turtlesim.msg' is an invalid
+[2.472s]   package name.  It should have the pattern
+[2.472s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[2.472s] 
+[2.472s] Call Stack (most recent call first):
+[2.472s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.472s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[2.472s] 
+[2.472s] 
+[2.472s] make: *** [Makefile:1228: cmake_check_build_system] Error 1
+[2.474s] Invoked command in '/home/swarm-team/ros2_ws/build/dump_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swarm-team/ros2_ws/install/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck:/home/swarm-team/ros2_ws/install/testplay:/home/swarm-team/ros2_ws/install/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_base_master:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck:/opt/ros/foxy /usr/bin/cmake --build /home/swarm-team/ros2_ws/build/dump_messages -- -j20 -l20

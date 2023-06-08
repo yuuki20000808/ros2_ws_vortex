@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dump_messages/msg/ExPosAndTeamNumber.msg
+// generated code does not contain a copyright notice
+
+#include "turtlesim/msg/Pose.idl"
+
+module dump_messages {
+  module msg {
+    struct ExPosAndTeamNumber {
+      int64 team;
+
+      turtlesim::msg::Pose pos;
+
+      sequence<float> dumpsite;
+    };
+  };
+};

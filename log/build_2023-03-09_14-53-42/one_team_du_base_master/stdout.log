@@ -1,0 +1,115 @@
+running develop
+Removing /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one-team-du-base-master.egg-link (link to .)
+running egg_info
+writing ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/PKG-INFO
+writing dependency_links to ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/dependency_links.txt
+writing entry points to ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/entry_points.txt
+writing requirements to ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/requires.txt
+writing top-level names to ../../build/one_team_du_base_master/one_team_du_base_master.egg-info/top_level.txt
+reading manifest file '../../build/one_team_du_base_master/one_team_du_base_master.egg-info/SOURCES.txt'
+writing manifest file '../../build/one_team_du_base_master/one_team_du_base_master.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/swarm-team/ros2_ws/build/one_team_du_base_master/build
+creating /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib
+creating /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_012_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_014_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/pure_pursuit.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_018_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_010_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_017_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_015_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/a_star.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_080_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/memo.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_011_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_014_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_016_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_017_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_013_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/__init__.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_018_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_011_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_015_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_013_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_016_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_012_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_communication_080_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+copying one_team_du_base_master/du_controller_010_src.py -> /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master
+running install
+running install_lib
+creating /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_012_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_014_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/pure_pursuit.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_018_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_010_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_017_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_015_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/a_star.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_080_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/memo.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_011_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_014_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_016_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_017_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_013_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/__init__.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_018_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_011_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_015_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_013_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_016_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_012_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_communication_080_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+copying /home/swarm-team/ros2_ws/build/one_team_du_base_master/build/lib/one_team_du_base_master/du_controller_010_src.py -> /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_012_src.py to du_communication_012_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_014_src.py to du_controller_014_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/pure_pursuit.py to pure_pursuit.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_018_src.py to du_communication_018_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_010_src.py to du_communication_010_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_017_src.py to du_controller_017_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_015_src.py to du_controller_015_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/a_star.py to a_star.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_080_src.py to du_controller_080_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/memo.py to memo.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_011_src.py to du_controller_011_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_014_src.py to du_communication_014_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_016_src.py to du_controller_016_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_017_src.py to du_communication_017_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_013_src.py to du_controller_013_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_018_src.py to du_controller_018_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_011_src.py to du_communication_011_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_015_src.py to du_communication_015_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_013_src.py to du_communication_013_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_016_src.py to du_communication_016_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_012_src.py to du_controller_012_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_communication_080_src.py to du_communication_080_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master/du_controller_010_src.py to du_controller_010_src.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/one_team_du_base_master/one_team_du_base_master.egg-info to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/python3.8/site-packages/one_team_du_base_master-0.0.0-py3.8.egg-info
+running install_scripts
+Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/one_team_du_base_master/lib/one_team_du_base_master
+writing list of installed files to '/home/swarm-team/ros2_ws/build/one_team_du_base_master/install.log'

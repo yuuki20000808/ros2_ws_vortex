@@ -1,0 +1,207 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/swarm-team/ros2_ws/build/dump_messages
+[35m[1mScanning dependencies of target dump_messages__cpp[0m
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target dump_messages__cpp
+[35m[1mScanning dependencies of target dump_messages__rosidl_generator_c[0m
+[  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 12%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_generator_c.dir/rosidl_generator_c/dump_messages/msg/detail/dump_cnp__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_generator_c.dir/rosidl_generator_c/dump_messages/msg/detail/dump_info_for_server__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_generator_c.dir/rosidl_generator_c/dump_messages/msg/detail/ex_pos_and_team_number__functions.c.o[0m
+[ 19%] [32m[1mLinking C shared library libdump_messages__rosidl_generator_c.so[0m
+[ 19%] Built target dump_messages__rosidl_generator_c
+[ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_cpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dump_messages/msg/ex_pos_and_team_number__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dump_messages/msg/dump_cnp__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dump_messages/msg/dump_info_for_server__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_introspection_cpp[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dump_messages/msg/detail/dump_cnp__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dump_messages/msg/detail/ex_pos_and_team_number__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dump_messages/msg/detail/dump_info_for_server__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_fastrtps_cpp[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dump_messages/msg/detail/dds_fastrtps/dump_cnp__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dump_messages/msg/detail/dds_fastrtps/ex_pos_and_team_number__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dump_messages/msg/detail/dds_fastrtps/dump_info_for_server__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_c[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/dump_messages/msg/dump_cnp__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/dump_messages/msg/ex_pos_and_team_number__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/dump_messages/msg/dump_info_for_server__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_introspection_c[0m
+[ 51%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dump_messages/msg/detail/dump_cnp__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dump_messages/msg/detail/dump_info_for_server__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dump_messages/msg/detail/ex_pos_and_team_number__type_support.c.o[0m
+[ 57%] [32m[1mLinking CXX shared library libdump_messages__rosidl_typesupport_c.so[0m
+[ 59%] [32m[1mLinking C shared library libdump_messages__rosidl_typesupport_introspection_c.so[0m
+[ 59%] Built target dump_messages__rosidl_typesupport_introspection_c
+[ 59%] Built target dump_messages__rosidl_typesupport_c
+[ 61%] [32m[1mLinking CXX shared library libdump_messages__rosidl_typesupport_introspection_cpp.so[0m
+[ 63%] [32m[1mLinking CXX shared library libdump_messages__rosidl_typesupport_cpp.so[0m
+[ 63%] Built target dump_messages__rosidl_typesupport_cpp
+[ 65%] [32m[1mLinking CXX shared library libdump_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 65%] Built target dump_messages__rosidl_typesupport_introspection_cpp
+[ 65%] Built target dump_messages__rosidl_typesupport_fastrtps_cpp
+[ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_fastrtps_c[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dump_messages/msg/detail/dump_cnp__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dump_messages/msg/detail/dump_info_for_server__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/dump_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dump_messages/msg/detail/ex_pos_and_team_number__type_support_c.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libdump_messages__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target dump_messages__rosidl_typesupport_fastrtps_c
+[ 76%] Built target dump_messages
+[35m[1mScanning dependencies of target dump_messages__py[0m
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target dump_messages__py
+[35m[1mScanning dependencies of target dump_messages__python[0m
+[ 80%] [32mBuilding C object CMakeFiles/dump_messages__python.dir/rosidl_generator_py/dump_messages/msg/_dump_cnp_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/dump_messages__python.dir/rosidl_generator_py/dump_messages/msg/_dump_info_for_server_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/dump_messages__python.dir/rosidl_generator_py/dump_messages/msg/_ex_pos_and_team_number_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/dump_messages/libdump_messages__python.so[0m
+[ 87%] Built target dump_messages__python
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target dump_messages__rosidl_typesupport_c__pyext[0m
+[ 91%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dump_messages/_dump_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dump_messages/_dump_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/dump_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dump_messages/_dump_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/dump_messages/dump_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/dump_messages/dump_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/dump_messages/dump_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target dump_messages__rosidl_typesupport_c__pyext
+[100%] Built target dump_messages__rosidl_typesupport_introspection_c__pyext
+[100%] Built target dump_messages__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/ament_index/resource_index/rosidl_interfaces/dump_messages
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__functions.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__struct.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__type_support.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__functions.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__struct.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__type_support.h
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__functions.h
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__struct.h
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__type_support.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/dump_cnp.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/dump_info_for_server.h
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/ex_pos_and_team_number.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/library_path.sh
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/library_path.dsv
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__builder.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__struct.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__traits.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__builder.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__struct.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__traits.hpp
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__builder.hpp
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__struct.hpp
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__traits.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/dump_cnp.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/dump_info_for_server.hpp
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/ex_pos_and_team_number.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/pythonpath.sh
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/__init__.py
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/msg/__init__.py
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/msg/_dump_cnp.py
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/msg/_dump_info_for_server.py
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/msg/_ex_pos_and_team_number.py
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/dump_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/dump_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/dump_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__python.so
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/DumpCNP.idl
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/DumpInfoForServer.idl
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/ExPosAndTeamNumber.idl
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/DumpCNP.msg
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/DumpInfoForServer.msg
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/ExPosAndTeamNumber.msg
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/ament_index/resource_index/package_run_dependencies/dump_messages
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/ament_index/resource_index/parent_prefix_path/dump_messages
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/path.sh
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/path.dsv
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/local_setup.bash
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/local_setup.sh
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/local_setup.zsh
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/local_setup.dsv
+-- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/package.dsv
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/ament_index/resource_index/packages/dump_messages
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messagesConfig.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messagesConfig-version.cmake
+-- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/package.xml
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_generator_c.so
+-- Set runtime path of "/home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_generator_c.so" to ""
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_c.so
+-- Set runtime path of "/home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_c.so" to ""
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/__init__.py'...
+-- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_generator_cExport.cmake
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_cExport.cmake
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_cppExport-noconfig.cmake

@@ -1,0 +1,68 @@
+[2.662s] Invoking command in '/home/swarm-team/ros2_ws/build/six_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/six_team_du_stuck/build
+[2.920s] running develop
+[3.023s] Invoked command in '/home/swarm-team/ros2_ws/build/six_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/six_team_du_stuck/build
+[3.025s] Invoking command in '/home/swarm-team/ros2_ws/src/six_team_du_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/six_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/six_team_du_stuck/install.log --install-scripts $base/lib/six_team_du_stuck --single-version-externally-managed
+[3.186s] running egg_info
+[3.186s] writing ../../build/six_team_du_stuck/six_team_du_stuck.egg-info/PKG-INFO
+[3.186s] writing dependency_links to ../../build/six_team_du_stuck/six_team_du_stuck.egg-info/dependency_links.txt
+[3.187s] writing entry points to ../../build/six_team_du_stuck/six_team_du_stuck.egg-info/entry_points.txt
+[3.187s] writing requirements to ../../build/six_team_du_stuck/six_team_du_stuck.egg-info/requires.txt
+[3.187s] writing top-level names to ../../build/six_team_du_stuck/six_team_du_stuck.egg-info/top_level.txt
+[3.201s] reading manifest file '../../build/six_team_du_stuck/six_team_du_stuck.egg-info/SOURCES.txt'
+[3.202s] writing manifest file '../../build/six_team_du_stuck/six_team_du_stuck.egg-info/SOURCES.txt'
+[3.202s] running build
+[3.202s] running build_py
+[3.202s] copying six_team_du_stuck/du_controller_010_src.py -> /home/swarm-team/ros2_ws/build/six_team_du_stuck/build/lib/six_team_du_stuck
+[3.202s] running install
+[3.202s] running install_lib
+[3.204s] copying /home/swarm-team/ros2_ws/build/six_team_du_stuck/build/lib/six_team_du_stuck/du_controller_010_src.py -> /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages/six_team_du_stuck
+[3.206s] byte-compiling /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages/six_team_du_stuck/du_controller_010_src.py to du_controller_010_src.cpython-38.pyc
+[3.208s] running install_data
+[3.208s] running install_egg_info
+[3.208s] removing '/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages/six_team_du_stuck-0.0.0-py3.8.egg-info' (and everything under it)
+[3.208s] Copying ../../build/six_team_du_stuck/six_team_du_stuck.egg-info to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages/six_team_du_stuck-0.0.0-py3.8.egg-info
+[3.209s] running install_scripts
+[3.221s] Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.221s] Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.221s] Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.221s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.221s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.221s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.221s] Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.221s] Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.221s] Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_019 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_020 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_021 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_022 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_023 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_024 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_025 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_026 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_027 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_028 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_029 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.222s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_019 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_020 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_021 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_022 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_023 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_024 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_025 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_026 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_027 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.223s] Installing du_controller_028 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.224s] Installing du_controller_029 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.224s] Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/six_team_du_stuck
+[3.224s] writing list of installed files to '/home/swarm-team/ros2_ws/build/six_team_du_stuck/install.log'
+[3.244s] Invoked command in '/home/swarm-team/ros2_ws/src/six_team_du_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_du_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_du_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_team_du_stuck build --build-base /home/swarm-team/ros2_ws/build/six_team_du_stuck/build install --record /home/swarm-team/ros2_ws/build/six_team_du_stuck/install.log --install-scripts $base/lib/six_team_du_stuck --single-version-externally-managed

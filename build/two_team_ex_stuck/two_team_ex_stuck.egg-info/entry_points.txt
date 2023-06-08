@@ -1,0 +1,10 @@
+[console_scripts]
+ex_communication_000 = two_team_ex_stuck.ex_communication_010_src:main
+ex_communication_001 = two_team_ex_stuck.ex_communication_011_src:main
+ex_communication_003 = two_team_ex_stuck.ex_communication_013_src:main
+ex_communication_test = two_team_ex_stuck.ex_communication_src:main
+ex_controller_000 = two_team_ex_stuck.ex_controller_010_src:main
+ex_controller_001 = two_team_ex_stuck.ex_controller_011_src:main
+ex_controller_003 = two_team_ex_stuck.ex_controller_013_src:main
+ex_controller_test = two_team_ex_stuck.ex_controller_src:main
+

@@ -1,0 +1,2 @@
+/usr/lib/python3/dist-packages/setuptools/package_index.py:306: UserWarning: Unbuilt egg for one-team-ex-stuck 0.0.0 (/home/swarm-team/ros2_ws/build/one_team_ex_stuck)
+  Environment.__init__(self, *args, **kw)

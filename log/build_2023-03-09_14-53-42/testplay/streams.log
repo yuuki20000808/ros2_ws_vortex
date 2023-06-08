@@ -1,0 +1,119 @@
+[2.596s] Invoking command in '/home/swarm-team/ros2_ws/build/testplay': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/testplay/build
+[2.845s] running develop
+[2.965s] Removing /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay.egg-link (link to .)
+[3.004s] Invoked command in '/home/swarm-team/ros2_ws/build/testplay' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/testplay/build
+[3.007s] Invoking command in '/home/swarm-team/ros2_ws/src/testplay': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testplay build --build-base /home/swarm-team/ros2_ws/build/testplay/build install --record /home/swarm-team/ros2_ws/build/testplay/install.log --install-scripts $base/lib/testplay --single-version-externally-managed
+[3.222s] running egg_info
+[3.222s] writing ../../build/testplay/testplay.egg-info/PKG-INFO
+[3.222s] writing dependency_links to ../../build/testplay/testplay.egg-info/dependency_links.txt
+[3.222s] writing entry points to ../../build/testplay/testplay.egg-info/entry_points.txt
+[3.222s] writing requirements to ../../build/testplay/testplay.egg-info/requires.txt
+[3.222s] writing top-level names to ../../build/testplay/testplay.egg-info/top_level.txt
+[3.243s] reading manifest file '../../build/testplay/testplay.egg-info/SOURCES.txt'
+[3.244s] writing manifest file '../../build/testplay/testplay.egg-info/SOURCES.txt'
+[3.244s] running build
+[3.244s] running build_py
+[3.244s] creating /home/swarm-team/ros2_ws/build/testplay/build
+[3.244s] creating /home/swarm-team/ros2_ws/build/testplay/build/lib
+[3.244s] creating /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.244s] copying testplay/du_communication_012_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.244s] copying testplay/du_controller_014_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.244s] copying testplay/pure_pursuit.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.244s] copying testplay/du_communication_018_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.245s] copying testplay/du_communication_010_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.245s] copying testplay/du_controller_017_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.245s] copying testplay/du_controller_015_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.245s] copying testplay/a_star.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.245s] copying testplay/du_controller_080_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.245s] copying testplay/memo.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.245s] copying testplay/du_controller_011_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.246s] copying testplay/du_communication_014_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.246s] copying testplay/du_controller_016_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.246s] copying testplay/du_communication_017_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.246s] copying testplay/du_controller_013_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.246s] copying testplay/__init__.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] copying testplay/du_controller_018_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] copying testplay/du_communication_011_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] copying testplay/du_communication_015_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] copying testplay/du_communication_013_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] copying testplay/du_communication_016_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] copying testplay/du_controller_012_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] copying testplay/du_communication_080_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] copying testplay/du_controller_010_src.py -> /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay
+[3.247s] running install
+[3.247s] running install_lib
+[3.247s] creating /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.248s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_012_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.248s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_014_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.248s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/pure_pursuit.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.248s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_018_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.248s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_010_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.248s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_017_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.248s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_015_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.251s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/a_star.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.252s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_080_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.252s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/memo.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.252s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_011_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.252s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_014_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.252s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_016_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.253s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_017_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.253s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_013_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.253s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/__init__.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.253s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_018_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.253s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_011_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.253s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_015_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.253s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_013_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.253s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_016_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.254s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_012_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.254s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_communication_080_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.255s] copying /home/swarm-team/ros2_ws/build/testplay/build/lib/testplay/du_controller_010_src.py -> /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay
+[3.255s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_012_src.py to du_communication_012_src.cpython-38.pyc
+[3.256s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_014_src.py to du_controller_014_src.cpython-38.pyc
+[3.267s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/pure_pursuit.py to pure_pursuit.cpython-38.pyc
+[3.267s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_018_src.py to du_communication_018_src.cpython-38.pyc
+[3.268s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_010_src.py to du_communication_010_src.cpython-38.pyc
+[3.268s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_017_src.py to du_controller_017_src.cpython-38.pyc
+[3.268s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_015_src.py to du_controller_015_src.cpython-38.pyc
+[3.268s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/a_star.py to a_star.cpython-38.pyc
+[3.268s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_080_src.py to du_controller_080_src.cpython-38.pyc
+[3.268s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/memo.py to memo.cpython-38.pyc
+[3.268s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_011_src.py to du_controller_011_src.cpython-38.pyc
+[3.269s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_014_src.py to du_communication_014_src.cpython-38.pyc
+[3.275s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_016_src.py to du_controller_016_src.cpython-38.pyc
+[3.280s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_017_src.py to du_communication_017_src.cpython-38.pyc
+[3.280s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_013_src.py to du_controller_013_src.cpython-38.pyc
+[3.280s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/__init__.py to __init__.cpython-38.pyc
+[3.280s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_018_src.py to du_controller_018_src.cpython-38.pyc
+[3.280s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_011_src.py to du_communication_011_src.cpython-38.pyc
+[3.280s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_015_src.py to du_communication_015_src.cpython-38.pyc
+[3.280s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_013_src.py to du_communication_013_src.cpython-38.pyc
+[3.281s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_016_src.py to du_communication_016_src.cpython-38.pyc
+[3.281s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_012_src.py to du_controller_012_src.cpython-38.pyc
+[3.281s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_communication_080_src.py to du_communication_080_src.cpython-38.pyc
+[3.281s] byte-compiling /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay/du_controller_010_src.py to du_controller_010_src.cpython-38.pyc
+[3.282s] running install_data
+[3.282s] running install_egg_info
+[3.282s] Copying ../../build/testplay/testplay.egg-info to /home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages/testplay-0.0.0-py3.8.egg-info
+[3.282s] running install_scripts
+[3.283s] Installing du_communication_010 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.283s] Installing du_communication_011 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.283s] Installing du_communication_012 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.283s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.283s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_communication_016 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_communication_017 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_communication_018 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_communication_080 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_010 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_011 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_012 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_016 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_017 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_018 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] Installing du_controller_080 script to /home/swarm-team/ros2_ws/install/testplay/lib/testplay
+[3.284s] writing list of installed files to '/home/swarm-team/ros2_ws/build/testplay/install.log'
+[3.317s] Invoked command in '/home/swarm-team/ros2_ws/src/testplay' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/testplay/prefix_override:/home/swarm-team/ros2_ws/install/testplay/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/testplay build --build-base /home/swarm-team/ros2_ws/build/testplay/build install --record /home/swarm-team/ros2_ws/build/testplay/install.log --install-scripts $base/lib/testplay --single-version-externally-managed

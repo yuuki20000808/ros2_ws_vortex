@@ -1,0 +1,24 @@
+[2.934s] Invoking command in '/home/swarm-team/ros2_ws/build/two_team_ex_cnp': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_ex_cnp/prefix_override:/home/swarm-team/ros2_ws/install/two_team_ex_cnp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_ex_cnp/build --no-deps install_data
+[3.223s] running develop
+[3.378s] running egg_info
+[3.378s] creating two_team_ex_cnp.egg-info
+[3.378s] writing two_team_ex_cnp.egg-info/PKG-INFO
+[3.379s] writing dependency_links to two_team_ex_cnp.egg-info/dependency_links.txt
+[3.379s] writing entry points to two_team_ex_cnp.egg-info/entry_points.txt
+[3.379s] writing requirements to two_team_ex_cnp.egg-info/requires.txt
+[3.379s] writing top-level names to two_team_ex_cnp.egg-info/top_level.txt
+[3.380s] writing manifest file 'two_team_ex_cnp.egg-info/SOURCES.txt'
+[3.417s] reading manifest file 'two_team_ex_cnp.egg-info/SOURCES.txt'
+[3.417s] writing manifest file 'two_team_ex_cnp.egg-info/SOURCES.txt'
+[3.453s] running build_ext
+[3.453s] Creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/lib/python3.8/site-packages/site.py
+[3.455s] Creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/lib/python3.8/site-packages/two-team-ex-cnp.egg-link (link to .)
+[3.455s] 
+[3.455s] Installed /home/swarm-team/ros2_ws/build/two_team_ex_cnp
+[3.456s] running install_data
+[3.456s] creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/ament_index
+[3.456s] creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/ament_index/resource_index
+[3.456s] creating /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/ament_index/resource_index/packages
+[3.456s] copying resource/two_team_ex_cnp -> /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/ament_index/resource_index/packages
+[3.456s] copying package.xml -> /home/swarm-team/ros2_ws/install/two_team_ex_cnp/share/two_team_ex_cnp
+[3.561s] Invoked command in '/home/swarm-team/ros2_ws/build/two_team_ex_cnp' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/two_team_ex_cnp/prefix_override:/home/swarm-team/ros2_ws/install/two_team_ex_cnp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/two_team_ex_cnp/build --no-deps install_data

@@ -1,0 +1,20 @@
+[2.870s] Invoking command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/build --no-deps install_data
+[3.147s] running develop
+[3.240s] running egg_info
+[3.240s] writing single_ex_sim_pkg.egg-info/PKG-INFO
+[3.240s] writing dependency_links to single_ex_sim_pkg.egg-info/dependency_links.txt
+[3.241s] writing entry points to single_ex_sim_pkg.egg-info/entry_points.txt
+[3.241s] writing requirements to single_ex_sim_pkg.egg-info/requires.txt
+[3.241s] writing top-level names to single_ex_sim_pkg.egg-info/top_level.txt
+[3.266s] reading manifest file 'single_ex_sim_pkg.egg-info/SOURCES.txt'
+[3.267s] writing manifest file 'single_ex_sim_pkg.egg-info/SOURCES.txt'
+[3.297s] running build_ext
+[3.297s] Creating /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages/single-ex-sim-pkg.egg-link (link to .)
+[3.297s] Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/single_ex_sim_pkg
+[3.297s] Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/single_ex_sim_pkg
+[3.297s] Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/single_ex_sim_pkg
+[3.297s] Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/single_ex_sim_pkg
+[3.297s] 
+[3.297s] Installed /home/swarm-team/ros2_ws/build/single_ex_sim_pkg
+[3.297s] running install_data
+[3.322s] Invoked command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg/build --no-deps install_data

@@ -1,0 +1,9 @@
+source;share/one_team_du_base_master/hook/pythonpath.ps1
+source;share/one_team_du_base_master/hook/pythonpath.dsv
+source;share/one_team_du_base_master/hook/pythonpath.sh
+source;share/one_team_du_base_master/hook/ament_prefix_path.ps1
+source;share/one_team_du_base_master/hook/ament_prefix_path.dsv
+source;share/one_team_du_base_master/hook/ament_prefix_path.sh
+source;../../build/one_team_du_base_master/share/one_team_du_base_master/hook/pythonpath_develop.ps1
+source;../../build/one_team_du_base_master/share/one_team_du_base_master/hook/pythonpath_develop.dsv
+source;../../build/one_team_du_base_master/share/one_team_du_base_master/hook/pythonpath_develop.sh

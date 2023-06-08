@@ -1,0 +1,39 @@
+[2.707s] Invoking command in '/home/swarm-team/ros2_ws/build/six_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/six_team_ex_stuck/build
+[3.044s] running develop
+[3.237s] Invoked command in '/home/swarm-team/ros2_ws/build/six_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/swarm-team/ros2_ws/build/six_team_ex_stuck/build
+[3.238s] Invoking command in '/home/swarm-team/ros2_ws/src/six_team_ex_stuck': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/six_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/six_team_ex_stuck/install.log --install-scripts $base/lib/six_team_ex_stuck --single-version-externally-managed
+[3.383s] running egg_info
+[3.383s] writing ../../build/six_team_ex_stuck/six_team_ex_stuck.egg-info/PKG-INFO
+[3.383s] writing dependency_links to ../../build/six_team_ex_stuck/six_team_ex_stuck.egg-info/dependency_links.txt
+[3.383s] writing entry points to ../../build/six_team_ex_stuck/six_team_ex_stuck.egg-info/entry_points.txt
+[3.383s] writing requirements to ../../build/six_team_ex_stuck/six_team_ex_stuck.egg-info/requires.txt
+[3.383s] writing top-level names to ../../build/six_team_ex_stuck/six_team_ex_stuck.egg-info/top_level.txt
+[3.401s] reading manifest file '../../build/six_team_ex_stuck/six_team_ex_stuck.egg-info/SOURCES.txt'
+[3.401s] writing manifest file '../../build/six_team_ex_stuck/six_team_ex_stuck.egg-info/SOURCES.txt'
+[3.401s] running build
+[3.401s] running build_py
+[3.402s] running install
+[3.402s] running install_lib
+[3.403s] running install_data
+[3.403s] running install_egg_info
+[3.404s] removing '/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages/six_team_ex_stuck-0.0.0-py3.8.egg-info' (and everything under it)
+[3.404s] Copying ../../build/six_team_ex_stuck/six_team_ex_stuck.egg-info to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages/six_team_ex_stuck-0.0.0-py3.8.egg-info
+[3.405s] running install_scripts
+[3.414s] Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_communication_004 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_communication_005 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_communication_006 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_communication_007 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_controller_004 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_controller_005 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_controller_006 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_controller_007 script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/six_team_ex_stuck
+[3.414s] writing list of installed files to '/home/swarm-team/ros2_ws/build/six_team_ex_stuck/install.log'
+[3.425s] Invoked command in '/home/swarm-team/ros2_ws/src/six_team_ex_stuck' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/six_team_ex_stuck/prefix_override:/home/swarm-team/ros2_ws/install/six_team_ex_stuck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_team_ex_stuck build --build-base /home/swarm-team/ros2_ws/build/six_team_ex_stuck/build install --record /home/swarm-team/ros2_ws/build/six_team_ex_stuck/install.log --install-scripts $base/lib/six_team_ex_stuck --single-version-externally-managed

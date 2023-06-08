@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating one_team_ex_stuck.egg-info
+writing one_team_ex_stuck.egg-info/PKG-INFO
+writing dependency_links to one_team_ex_stuck.egg-info/dependency_links.txt
+writing entry points to one_team_ex_stuck.egg-info/entry_points.txt
+writing requirements to one_team_ex_stuck.egg-info/requires.txt
+writing top-level names to one_team_ex_stuck.egg-info/top_level.txt
+writing manifest file 'one_team_ex_stuck.egg-info/SOURCES.txt'
+reading manifest file 'one_team_ex_stuck.egg-info/SOURCES.txt'
+writing manifest file 'one_team_ex_stuck.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/python3.8/site-packages/site.py
+Creating /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/python3.8/site-packages/one-team-ex-stuck.egg-link (link to .)
+Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/one_team_ex_stuck
+Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/one_team_ex_stuck
+Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/one_team_ex_stuck
+Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/one_team_ex_stuck
+Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/one_team_ex_stuck
+Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/one_team_ex_stuck
+Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/one_team_ex_stuck
+Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/one_team_ex_stuck/lib/one_team_ex_stuck
+
+Installed /home/swarm-team/ros2_ws/build/one_team_ex_stuck
+running install_data
+creating /home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/ament_index
+creating /home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/ament_index/resource_index
+creating /home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/ament_index/resource_index/packages
+copying resource/one_team_ex_stuck -> /home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/ament_index/resource_index/packages
+copying package.xml -> /home/swarm-team/ros2_ws/install/one_team_ex_stuck/share/one_team_ex_stuck

@@ -1,0 +1,50 @@
+running develop
+Removing /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi-du-udpcomm-01-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/multi_du_udpcomm_01_pkg/multi_du_udpcomm_01_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/multi_du_udpcomm_01_pkg/multi_du_udpcomm_01_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/multi_du_udpcomm_01_pkg/multi_du_udpcomm_01_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/multi_du_udpcomm_01_pkg/multi_du_udpcomm_01_pkg.egg-info/requires.txt
+writing top-level names to ../../build/multi_du_udpcomm_01_pkg/multi_du_udpcomm_01_pkg.egg-info/top_level.txt
+reading manifest file '../../build/multi_du_udpcomm_01_pkg/multi_du_udpcomm_01_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/multi_du_udpcomm_01_pkg/multi_du_udpcomm_01_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build
+creating /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib
+creating /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg
+copying multi_du_udpcomm_01_pkg/du_controller_014_src.py -> /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg
+copying multi_du_udpcomm_01_pkg/du_controller_015_src.py -> /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg
+copying multi_du_udpcomm_01_pkg/du_communication_014_src.py -> /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg
+copying multi_du_udpcomm_01_pkg/du_controller_013_src.py -> /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg
+copying multi_du_udpcomm_01_pkg/__init__.py -> /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg
+copying multi_du_udpcomm_01_pkg/du_communication_015_src.py -> /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg
+copying multi_du_udpcomm_01_pkg/du_communication_013_src.py -> /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg
+running install
+running install_lib
+creating /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg
+copying /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg/du_controller_014_src.py -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg
+copying /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg/du_controller_015_src.py -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg
+copying /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg/du_communication_014_src.py -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg
+copying /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg/du_controller_013_src.py -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg
+copying /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg/__init__.py -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg
+copying /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg/du_communication_015_src.py -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg
+copying /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build/lib/multi_du_udpcomm_01_pkg/du_communication_013_src.py -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg
+byte-compiling /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg/du_controller_014_src.py to du_controller_014_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg/du_controller_015_src.py to du_controller_015_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg/du_communication_014_src.py to du_communication_014_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg/du_controller_013_src.py to du_controller_013_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg/du_communication_015_src.py to du_communication_015_src.cpython-38.pyc
+byte-compiling /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg/du_communication_013_src.py to du_communication_013_src.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/multi_du_udpcomm_01_pkg/multi_du_udpcomm_01_pkg.egg-info to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi_du_udpcomm_01_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+writing list of installed files to '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/install.log'

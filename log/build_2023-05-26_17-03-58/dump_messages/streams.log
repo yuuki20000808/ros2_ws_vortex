@@ -1,0 +1,155 @@
+[0.099s] Invoking command in '/home/swarm-team/ros2_ws/build/dump_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swarm-team/ros2_ws/install/two_team_ex_cnp:/home/swarm-team/ros2_ws/install/two_team_du_cnp:/home/swarm-team/ros2_ws/install/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck:/home/swarm-team/ros2_ws/install/testplay:/home/swarm-team/ros2_ws/install/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_base_master:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck:/opt/ros/foxy /usr/bin/cmake --build /home/swarm-team/ros2_ws/build/dump_messages -- -j20 -l20
+[2.252s] [  1%] Built target dump_messages__cpp
+[2.252s] [ 12%] Built target dump_messages__rosidl_generator_c
+[2.252s] [ 23%] Built target dump_messages__rosidl_typesupport_cpp
+[2.252s] [ 34%] Built target dump_messages__rosidl_typesupport_introspection_cpp
+[2.252s] [ 46%] Built target dump_messages__rosidl_typesupport_c
+[2.252s] [ 57%] Built target dump_messages__rosidl_typesupport_introspection_c
+[2.252s] [ 68%] Built target dump_messages__rosidl_typesupport_fastrtps_cpp
+[2.252s] [ 79%] Built target dump_messages__rosidl_typesupport_fastrtps_c
+[2.253s] [ 79%] Built target dump_messages
+[2.253s] [ 80%] Built target dump_messages__py
+[2.253s] [ 90%] Built target dump_messages__python
+[2.253s] [ 93%] Built target dump_messages__rosidl_typesupport_introspection_c__pyext
+[2.253s] [ 96%] Built target dump_messages__rosidl_typesupport_fastrtps_c__pyext
+[2.253s] [100%] Built target dump_messages__rosidl_typesupport_c__pyext
+[2.254s] Invoked command in '/home/swarm-team/ros2_ws/build/dump_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swarm-team/ros2_ws/install/two_team_ex_cnp:/home/swarm-team/ros2_ws/install/two_team_du_cnp:/home/swarm-team/ros2_ws/install/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck:/home/swarm-team/ros2_ws/install/testplay:/home/swarm-team/ros2_ws/install/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_base_master:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck:/opt/ros/foxy /usr/bin/cmake --build /home/swarm-team/ros2_ws/build/dump_messages -- -j20 -l20
+[2.337s] Invoking command in '/home/swarm-team/ros2_ws/build/dump_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swarm-team/ros2_ws/install/two_team_ex_cnp:/home/swarm-team/ros2_ws/install/two_team_du_cnp:/home/swarm-team/ros2_ws/install/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck:/home/swarm-team/ros2_ws/install/testplay:/home/swarm-team/ros2_ws/install/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_base_master:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck:/opt/ros/foxy /usr/bin/cmake --install /home/swarm-team/ros2_ws/build/dump_messages
+[2.347s] -- Install configuration: ""
+[2.348s] -- Execute custom install script
+[2.348s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/ament_index/resource_index/rosidl_interfaces/dump_messages
+[2.349s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__functions.h
+[2.349s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__struct.h
+[2.349s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__type_support.h
+[2.349s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__functions.h
+[2.349s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__struct.h
+[2.350s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__type_support.h
+[2.350s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__functions.h
+[2.350s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__struct.h
+[2.350s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__type_support.h
+[2.350s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/dump_cnp.h
+[2.350s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/dump_info_for_server.h
+[2.350s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/ex_pos_and_team_number.h
+[2.351s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/rosidl_generator_c__visibility_control.h
+[2.351s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/add_three_ints.h
+[2.351s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__functions.h
+[2.351s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__struct.h
+[2.351s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__type_support.h
+[2.351s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__functions.h
+[2.351s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__struct.h
+[2.351s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__type_support.h
+[2.352s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/dumpbool.h
+[2.352s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/library_path.sh
+[2.352s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/library_path.dsv
+[2.353s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__rosidl_typesupport_fastrtps_c.h
+[2.353s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__rosidl_typesupport_fastrtps_c.h
+[2.353s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__rosidl_typesupport_fastrtps_c.h
+[2.353s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.353s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[2.353s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__rosidl_typesupport_fastrtps_c.h
+[2.354s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_fastrtps_c.so
+[2.355s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__rosidl_typesupport_fastrtps_cpp.hpp
+[2.355s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__rosidl_typesupport_fastrtps_cpp.hpp
+[2.355s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__rosidl_typesupport_fastrtps_cpp.hpp
+[2.355s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.355s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.355s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__rosidl_typesupport_fastrtps_cpp.hpp
+[2.356s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_fastrtps_cpp.so
+[2.356s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__rosidl_typesupport_introspection_c.h
+[2.356s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__rosidl_typesupport_introspection_c.h
+[2.356s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__rosidl_typesupport_introspection_c.h
+[2.356s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.357s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[2.357s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__rosidl_typesupport_introspection_c.h
+[2.357s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__builder.hpp
+[2.357s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__struct.hpp
+[2.358s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__traits.hpp
+[2.358s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__builder.hpp
+[2.358s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__struct.hpp
+[2.358s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__traits.hpp
+[2.358s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__builder.hpp
+[2.358s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__struct.hpp
+[2.358s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__traits.hpp
+[2.358s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/dump_cnp.hpp
+[2.359s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/dump_info_for_server.hpp
+[2.359s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/ex_pos_and_team_number.hpp
+[2.359s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/add_three_ints.hpp
+[2.359s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__builder.hpp
+[2.359s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__struct.hpp
+[2.359s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__traits.hpp
+[2.359s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__builder.hpp
+[2.359s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__struct.hpp
+[2.360s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__traits.hpp
+[2.360s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/dumpbool.hpp
+[2.360s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_cnp__rosidl_typesupport_introspection_cpp.hpp
+[2.360s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/dump_info_for_server__rosidl_typesupport_introspection_cpp.hpp
+[2.360s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/msg/detail/ex_pos_and_team_number__rosidl_typesupport_introspection_cpp.hpp
+[2.361s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.361s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/include/dump_messages/srv/detail/dumpbool__rosidl_typesupport_introspection_cpp.hpp
+[2.361s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/pythonpath.sh
+[2.361s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/pythonpath.dsv
+[2.361s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/__init__.py
+[2.362s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/msg/__init__.py
+[2.362s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/msg/_dump_cnp.py
+[2.362s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/msg/_dump_info_for_server.py
+[2.362s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/msg/_ex_pos_and_team_number.py
+[2.363s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/srv/__init__.py
+[2.363s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/srv/_add_three_ints.py
+[2.363s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/srv/_dumpbool.py
+[2.363s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/dump_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.364s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/dump_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.364s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/python3.8/site-packages/dump_messages/dump_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.364s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__python.so
+[2.365s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/DumpCNP.idl
+[2.365s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/DumpInfoForServer.idl
+[2.365s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/ExPosAndTeamNumber.idl
+[2.365s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/srv/Dumpbool.idl
+[2.365s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/srv/AddThreeInts.idl
+[2.366s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/DumpCNP.msg
+[2.366s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/DumpInfoForServer.msg
+[2.366s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/msg/ExPosAndTeamNumber.msg
+[2.366s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/srv/Dumpbool.srv
+[2.367s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/srv/Dumpbool_Request.msg
+[2.367s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/srv/Dumpbool_Response.msg
+[2.367s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/srv/AddThreeInts.srv
+[2.367s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/srv/AddThreeInts_Request.msg
+[2.367s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/srv/AddThreeInts_Response.msg
+[2.368s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/ament_index/resource_index/package_run_dependencies/dump_messages
+[2.368s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/ament_index/resource_index/parent_prefix_path/dump_messages
+[2.368s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/ament_prefix_path.sh
+[2.368s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/ament_prefix_path.dsv
+[2.369s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/path.sh
+[2.369s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/environment/path.dsv
+[2.369s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/local_setup.bash
+[2.369s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/local_setup.sh
+[2.370s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/local_setup.zsh
+[2.370s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/local_setup.dsv
+[2.370s] -- Symlinking: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/package.dsv
+[2.379s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/ament_index/resource_index/packages/dump_messages
+[2.379s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/rosidl_cmake-extras.cmake
+[2.379s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.380s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[2.380s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/ament_cmake_export_targets-extras.cmake
+[2.380s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.380s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.381s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.381s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messagesConfig.cmake
+[2.381s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messagesConfig-version.cmake
+[2.381s] -- Up-to-date symlink: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/package.xml
+[2.381s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_generator_c.so
+[2.382s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_introspection_c.so
+[2.382s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_c.so
+[2.382s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_introspection_cpp.so
+[2.383s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/lib/libdump_messages__rosidl_typesupport_cpp.so
+[2.449s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_generator_cExport.cmake
+[2.449s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_generator_cExport-noconfig.cmake
+[2.449s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_introspection_cExport.cmake
+[2.449s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.449s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_cExport.cmake
+[2.449s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_cExport-noconfig.cmake
+[2.450s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_generator_cppExport.cmake
+[2.450s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_introspection_cppExport.cmake
+[2.450s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.450s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_cppExport.cmake
+[2.450s] -- Up-to-date: /home/swarm-team/ros2_ws/install/dump_messages/share/dump_messages/cmake/dump_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[2.452s] Invoked command in '/home/swarm-team/ros2_ws/build/dump_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swarm-team/ros2_ws/install/two_team_ex_cnp:/home/swarm-team/ros2_ws/install/two_team_du_cnp:/home/swarm-team/ros2_ws/install/two_team_ex_test:/home/swarm-team/ros2_ws/install/two_team_ex_stuck:/home/swarm-team/ros2_ws/install/two_team_du_test:/home/swarm-team/ros2_ws/install/two_team_du_stuck:/home/swarm-team/ros2_ws/install/three_team_ex_stuck:/home/swarm-team/ros2_ws/install/three_team_du_stuck:/home/swarm-team/ros2_ws/install/testplay:/home/swarm-team/ros2_ws/install/six_team_ex_stuck:/home/swarm-team/ros2_ws/install/six_team_du_stuck:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg:/home/swarm-team/ros2_ws/install/one_team_ex_stuck:/home/swarm-team/ros2_ws/install/one_team_ex_base_master:/home/swarm-team/ros2_ws/install/one_team_du_stuck:/home/swarm-team/ros2_ws/install/one_team_du_base_master:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_02_pkg:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg:/home/swarm-team/ros2_ws/install/four_team_ex_stuck:/home/swarm-team/ros2_ws/install/four_team_du_stuck:/opt/ros/foxy /usr/bin/cmake --install /home/swarm-team/ros2_ws/build/dump_messages

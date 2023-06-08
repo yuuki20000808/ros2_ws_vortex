@@ -1,0 +1,24 @@
+[3.061s] Invoking command in '/home/swarm-team/ros2_ws/build/one_team_ex_base_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build --no-deps install_data
+[3.232s] running develop
+[3.309s] running egg_info
+[3.309s] writing one_team_ex_base_master.egg-info/PKG-INFO
+[3.309s] writing dependency_links to one_team_ex_base_master.egg-info/dependency_links.txt
+[3.309s] writing entry points to one_team_ex_base_master.egg-info/entry_points.txt
+[3.309s] writing requirements to one_team_ex_base_master.egg-info/requires.txt
+[3.310s] writing top-level names to one_team_ex_base_master.egg-info/top_level.txt
+[3.330s] reading manifest file 'one_team_ex_base_master.egg-info/SOURCES.txt'
+[3.330s] writing manifest file 'one_team_ex_base_master.egg-info/SOURCES.txt'
+[3.362s] running build_ext
+[3.362s] Creating /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages/one-team-ex-base-master.egg-link (link to .)
+[3.362s] Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.365s] Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.365s] Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.365s] Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.365s] Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.365s] Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.365s] Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.365s] Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/one_team_ex_base_master
+[3.365s] 
+[3.365s] Installed /home/swarm-team/ros2_ws/build/one_team_ex_base_master
+[3.366s] running install_data
+[3.392s] Invoked command in '/home/swarm-team/ros2_ws/build/one_team_ex_base_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/one_team_ex_base_master/prefix_override:/home/swarm-team/ros2_ws/install/one_team_ex_base_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/one_team_ex_base_master/build --no-deps install_data

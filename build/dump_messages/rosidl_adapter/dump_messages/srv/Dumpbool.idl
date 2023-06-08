@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dump_messages/srv/Dumpbool.srv
+// generated code does not contain a copyright notice
+
+
+module dump_messages {
+  module srv {
+    struct Dumpbool_Request {
+      boolean request;
+    };
+    struct Dumpbool_Response {
+      boolean bit;
+    };
+  };
+};

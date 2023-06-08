@@ -1,0 +1,24 @@
+[2.925s] Invoking command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/build --no-deps install_data
+[3.159s] running develop
+[3.302s] running egg_info
+[3.302s] writing single_ex_sim_pkg_master.egg-info/PKG-INFO
+[3.302s] writing dependency_links to single_ex_sim_pkg_master.egg-info/dependency_links.txt
+[3.302s] writing entry points to single_ex_sim_pkg_master.egg-info/entry_points.txt
+[3.302s] writing requirements to single_ex_sim_pkg_master.egg-info/requires.txt
+[3.302s] writing top-level names to single_ex_sim_pkg_master.egg-info/top_level.txt
+[3.339s] reading manifest file 'single_ex_sim_pkg_master.egg-info/SOURCES.txt'
+[3.340s] writing manifest file 'single_ex_sim_pkg_master.egg-info/SOURCES.txt'
+[3.379s] running build_ext
+[3.379s] Creating /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages/single-ex-sim-pkg-master.egg-link (link to .)
+[3.380s] Installing ex_communication_000 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+[3.381s] Installing ex_communication_001 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+[3.381s] Installing ex_communication_003 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+[3.381s] Installing ex_communication_test script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+[3.381s] Installing ex_controller_000 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+[3.381s] Installing ex_controller_001 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+[3.382s] Installing ex_controller_003 script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+[3.382s] Installing ex_controller_test script to /home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/single_ex_sim_pkg_master
+[3.382s] 
+[3.382s] Installed /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master
+[3.382s] running install_data
+[3.421s] Invoked command in '/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/prefix_override:/home/swarm-team/ros2_ws/install/single_ex_sim_pkg_master/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/single_ex_sim_pkg_master/build --no-deps install_data

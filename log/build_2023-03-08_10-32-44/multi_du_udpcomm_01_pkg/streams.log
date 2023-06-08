@@ -1,0 +1,31 @@
+[1.920s] Invoking command in '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build --no-deps install_data
+[2.072s] running develop
+[2.135s] running egg_info
+[2.135s] creating multi_du_udpcomm_01_pkg.egg-info
+[2.135s] writing multi_du_udpcomm_01_pkg.egg-info/PKG-INFO
+[2.135s] writing dependency_links to multi_du_udpcomm_01_pkg.egg-info/dependency_links.txt
+[2.135s] writing entry points to multi_du_udpcomm_01_pkg.egg-info/entry_points.txt
+[2.135s] writing requirements to multi_du_udpcomm_01_pkg.egg-info/requires.txt
+[2.135s] writing top-level names to multi_du_udpcomm_01_pkg.egg-info/top_level.txt
+[2.137s] writing manifest file 'multi_du_udpcomm_01_pkg.egg-info/SOURCES.txt'
+[2.156s] reading manifest file 'multi_du_udpcomm_01_pkg.egg-info/SOURCES.txt'
+[2.156s] writing manifest file 'multi_du_udpcomm_01_pkg.egg-info/SOURCES.txt'
+[2.175s] running build_ext
+[2.175s] Creating /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/site.py
+[2.177s] Creating /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages/multi-du-udpcomm-01-pkg.egg-link (link to .)
+[2.177s] Installing du_communication_013 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+[2.177s] Installing du_communication_014 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+[2.177s] Installing du_communication_015 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+[2.177s] Installing du_controller_013 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+[2.177s] Installing du_controller_014 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+[2.177s] Installing du_controller_015 script to /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/multi_du_udpcomm_01_pkg
+[2.178s] 
+[2.178s] Installed /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg
+[2.178s] running install_data
+[2.178s] creating /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/ament_index
+[2.178s] creating /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/ament_index/resource_index
+[2.178s] creating /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/ament_index/resource_index/packages
+[2.178s] copying resource/multi_du_udpcomm_01_pkg -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/ament_index/resource_index/packages
+[2.178s] copying package.xml -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg
+[2.178s] copying launch/multi_du_udpcomm_01.launch.py -> /home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/share/multi_du_udpcomm_01_pkg
+[2.201s] Invoked command in '/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg' returned '0': PYTHONPATH=/home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/prefix_override:/home/swarm-team/ros2_ws/install/multi_du_udpcomm_01_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/swarm-team/ros2_ws/build/multi_du_udpcomm_01_pkg/build --no-deps install_data
