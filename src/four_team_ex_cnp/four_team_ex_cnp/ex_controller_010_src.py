@@ -148,7 +148,7 @@ class MinimalPubSubCont(Node):
             self.pre_performance = (self.ave_sand * self.add_units)/(self.distance*2 / self.dumpspeed + self.loading_time + self.mounding_time)
             self.finish_time = self.sand / self.pre_performance   
 
-        # self.add_units = 1
+        self.add_units = 100
 
         print("add_units:",self.add_units)
         print("predict performance:",self.pre_performance)
@@ -161,12 +161,13 @@ class MinimalPubSubCont(Node):
                 if dump.id == DumpCNP.id:
                     return
             self.dump_CNP_list.append(DumpCNP)
-            self.get_logger().info(f'{self.dump_CNP_list}')
         if len(self.dump_CNP_list) == len(self.dump_ID_list):
             self.sorted_dump_list = sort_DumpCNP_by_distance(self.dump_CNP_list,self.turtlePos)
             self.request_flag = True
             self.dump_CNP_list = []
             self.get_logger().info(f'{self.add_units}')
+            if self.add_units > len(self.sorted_dump_list):
+                self.add_units = len(self.sorted_dump_list)
             for i in range(self.add_units):
                 du_id = self.sorted_dump_list[i].id
                 decide_team_of_dump = self.create_publisher(Int16,f'du_{du_id}/decide_team',10)
